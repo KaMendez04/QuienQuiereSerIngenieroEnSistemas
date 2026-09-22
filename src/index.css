@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  body {
+    background: radial-gradient(circle at 50% 30%, #150942 0%, #080724 50%, #02020e 100%);
+    color: #ffffff;
+    font-family: "Segoe UI", Inter, Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Estudio Millonario: Fondos y efectos de luz */
+.bg-studio {
+  background: 
+    radial-gradient(ellipse at 50% 30%, rgba(94, 39, 180, 0.45) 0%, rgba(13, 17, 71, 0.85) 45%, #02020f 90%),
+    radial-gradient(circle at 50% 75%, rgba(0, 162, 255, 0.25) 0%, transparent 60%);
+}
+
+.studio-flare {
+  background: radial-gradient(circle, rgba(94, 180, 255, 0.8) 0%, rgba(30, 90, 255, 0.4) 30%, transparent 70%);
+}
+
+.horizontal-beam {
+  background: linear-gradient(90deg, transparent 0%, rgba(80, 150, 255, 0.2) 25%, rgba(130, 210, 255, 0.8) 50%, rgba(80, 150, 255, 0.2) 75%, transparent 100%);
+}
+
+/* Animaciones del Show */
+@keyframes tensionPulse {
+  0%, 100% {
+    box-shadow: 0 0 10px rgba(255, 170, 0, 0.6), inset 0 0 10px rgba(255, 170, 0, 0.3);
+    border-color: #ffd24d;
+    background-color: rgba(180, 110, 0, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 28px rgba(255, 200, 0, 0.95), inset 0 0 22px rgba(255, 180, 0, 0.6);
+    border-color: #ffffff;
+    background-color: rgba(220, 140, 0, 0.6);
+  }
+}
+
+@keyframes correctFlash {
+  0%, 100% {
+    background-color: rgba(16, 185, 129, 0.4);
+    box-shadow: 0 0 15px rgba(52, 211, 153, 0.8), inset 0 0 15px rgba(52, 211, 153, 0.4);
+    border-color: #34d399;
+  }
+  50% {
+    background-color: rgba(5, 150, 105, 0.85);
+    box-shadow: 0 0 35px rgba(110, 231, 183, 1), inset 0 0 25px rgba(110, 231, 183, 0.7);
+    border-color: #ffffff;
+  }
+}
+
+@keyframes wrongFlash {
+  0%, 100% {
+    background-color: rgba(239, 68, 68, 0.5);
+    box-shadow: 0 0 15px rgba(248, 113, 113, 0.8), inset 0 0 15px rgba(248, 113, 113, 0.4);
+    border-color: #f87171;
+  }
+  50% {
+    background-color: rgba(185, 28, 28, 0.9);
+    box-shadow: 0 0 35px rgba(252, 165, 165, 1), inset 0 0 25px rgba(252, 165, 165, 0.7);
+    border-color: #ffffff;
+  }
+}
+
+.animate-tension {
+  animation: tensionPulse 0.8s ease-in-out infinite;
+}
+
+.animate-correct {
+  animation: correctFlash 0.6s ease-in-out infinite;
+}
+
+.animate-wrong {
+  animation: wrongFlash 0.6s ease-in-out infinite;
+}
+
+/* Formas Hexagonales Lozenge clásicas de Millonario */
+.hex-lozenge {
+  clip-path: polygon(
+    24px 0%,
+    calc(100% - 24px) 0%,
+    100% 50%,
+    calc(100% - 24px) 100%,
+    24px 100%,
+    0% 50%
+  );
+}
+
+.hex-lozenge-sm {
+  clip-path: polygon(
+    14px 0%,
+    calc(100% - 14px) 0%,
+    100% 50%,
+    calc(100% - 14px) 100%,
+    14px 100%,
+    0% 50%
+  );
+}
+
+/* Rombo */
+.rombo-bullet {
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+/* Scrollbar estilizada */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(4, 7, 32, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(56, 92, 196, 0.6);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 180, 0, 0.8);
+}

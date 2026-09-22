@@ -1,0 +1,147 @@
+[
+  {
+    "id": "p01",
+    "nivel": 1,
+    "categoria": "carrera",
+    "texto": "¿Qué significa la sigla CPU?",
+    "opciones": [
+      "Control Programado Universal",
+      "Unidad Central de Procesamiento",
+      "Central de Procesos Únicos",
+      "Computadora Personal Unificada"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "p02",
+    "nivel": 2,
+    "categoria": "logica",
+    "texto": "Si todos los ingenieros leen documentación y Ana es ingeniera, ¿qué se concluye necesariamente?",
+    "opciones": [
+      "Ana no lee documentación",
+      "Ana podría no leer documentación",
+      "Ana lee documentación",
+      "Nada se puede concluir"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "p03",
+    "nivel": 3,
+    "categoria": "carrera",
+    "texto": "¿Cuál es el resultado de la expresión binaria 1011 + 0110?",
+    "opciones": ["11111", "10001", "10101", "11011"],
+    "correctaIndex": 1
+  },
+  {
+    "id": "p04",
+    "nivel": 4,
+    "categoria": "carrera",
+    "texto": "¿Qué estructura de datos funciona bajo el principio LIFO (último en entrar, primero en salir)?",
+    "opciones": ["Cola", "Lista enlazada", "Árbol binario", "Pila"],
+    "correctaIndex": 3
+  },
+  {
+    "id": "p05",
+    "nivel": 5,
+    "categoria": "logica",
+    "texto": "¿Cuál es el siguiente número de la serie: 2, 6, 12, 20, 30, ...?",
+    "opciones": ["36", "40", "42", "44"],
+    "correctaIndex": 2
+  },
+  {
+    "id": "p06",
+    "nivel": 6,
+    "categoria": "carrera",
+    "texto": "¿Qué protocolo se utiliza para transferir páginas web de forma segura?",
+    "opciones": ["FTP", "HTTP", "HTTPS", "SMTP"],
+    "correctaIndex": 2
+  },
+  {
+    "id": "p07",
+    "nivel": 7,
+    "categoria": "carrera",
+    "texto": "En SQL, ¿qué cláusula se usa para filtrar filas después de agrupar con GROUP BY?",
+    "opciones": ["WHERE", "HAVING", "ORDER BY", "LIMIT"],
+    "correctaIndex": 1
+  },
+  {
+    "id": "p08",
+    "nivel": 8,
+    "categoria": "logica",
+    "texto": "Un tanque se llena con dos llaves: la primera lo llena en 4 horas y la segunda en 6 horas. Trabajando juntas, ¿en cuánto tiempo lo llenan?",
+    "opciones": ["2 horas", "2.4 horas", "3 horas", "5 horas"],
+    "correctaIndex": 1
+  },
+  {
+    "id": "p09",
+    "nivel": 9,
+    "categoria": "carrera",
+    "texto": "¿Cuál es la complejidad temporal promedio de la búsqueda en un árbol binario de búsqueda balanceado?",
+    "opciones": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "correctaIndex": 1
+  },
+  {
+    "id": "p10",
+    "nivel": 10,
+    "categoria": "carrera",
+    "texto": "¿Qué capa del modelo OSI se encarga del enrutamiento de paquetes entre redes?",
+    "opciones": [
+      "Capa 2: Enlace de datos",
+      "Capa 3: Red",
+      "Capa 4: Transporte",
+      "Capa 5: Sesión"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "p11",
+    "nivel": 11,
+    "categoria": "carrera",
+    "texto": "En el contexto de bases de datos, ¿qué garantiza la propiedad de «atomicidad» en ACID?",
+    "opciones": [
+      "Que los datos sean visibles para todos",
+      "Que la transacción se ejecute completa o no se ejecute",
+      "Que los datos estén cifrados",
+      "Que las consultas sean rápidas"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "p12",
+    "nivel": 12,
+    "categoria": "logica",
+    "texto": "Tienes 8 bolas idénticas, una es más pesada. Con una balanza de dos platillos, ¿cuál es el número mínimo de pesadas para encontrarla?",
+    "opciones": ["1", "2", "3", "4"],
+    "correctaIndex": 1
+  },
+  {
+    "id": "p13",
+    "nivel": 13,
+    "categoria": "carrera",
+    "texto": "¿Qué patrón de diseño se utiliza para garantizar que una clase tenga una única instancia?",
+    "opciones": ["Factory", "Observer", "Singleton", "Strategy"],
+    "correctaIndex": 2
+  },
+  {
+    "id": "p14",
+    "nivel": 14,
+    "categoria": "carrera",
+    "texto": "¿Qué es la «normalización» en el diseño de bases de datos relacionales?",
+    "opciones": [
+      "Un proceso para acelerar las consultas agregando índices",
+      "Un proceso para reducir la redundancia y dependencias de los datos",
+      "Un proceso para replicar datos entre servidores",
+      "Un proceso para cifrar los datos sensibles"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "p15",
+    "nivel": 15,
+    "categoria": "logica",
+    "texto": "Un cajón tiene 10 calcetines negros y 10 blancos. ¿Cuántos calcetines debes sacar, a ciegas, para asegurar un par del mismo color?",
+    "opciones": ["2", "3", "10", "11"],
+    "correctaIndex": 1
+  }
+]
