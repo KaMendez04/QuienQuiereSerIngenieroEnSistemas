@@ -1,7 +1,7 @@
 import React from "react";
-import { Users, LogOut, GraduationCap } from "lucide-react";
+import { Users, LogOut, GraduationCap, Phone } from "lucide-react";
 
-export type TipoComodin = "50:50" | "audiencia" | "consulta" | "retirarse";
+export type TipoComodin = "50:50" | "audiencia" | "consulta" | "llamada" | "retirarse";
 
 interface ComodinOvaloProps {
   tipo: TipoComodin;
@@ -38,6 +38,12 @@ export const ComodinOvalo: React.FC<ComodinOvaloProps> = ({
         return (
           <div className="flex items-center justify-center text-cyan-300 drop-shadow-[0_0_8px_rgba(0,200,255,0.8)]">
             <GraduationCap size={20} strokeWidth={2.4} />
+          </div>
+        );
+      case "llamada":
+        return (
+          <div className="flex items-center justify-center text-cyan-300 drop-shadow-[0_0_8px_rgba(0,200,255,0.8)]">
+            <Phone size={20} strokeWidth={2.4} />
           </div>
         );
       case "retirarse":

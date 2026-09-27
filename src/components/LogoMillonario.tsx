@@ -13,7 +13,7 @@ export const LogoMillonario: React.FC<LogoMillonarioProps> = ({
 }) => {
   return (
     <div
-      className={`relative select-none flex items-center justify-center ${className}`}
+      className={`relative select-none flex items-center justify-center shrink-0 ${className}`}
       style={{ width: size, height: size }}
     >
       {/* Resplandor exterior circular */}
@@ -58,7 +58,7 @@ export const LogoMillonario: React.FC<LogoMillonarioProps> = ({
           />
           <path
             id="textPathBottom"
-            d="M 255,150 A 105,105 0 0,1 45,150"
+            d="M 33,150 A 117,117 0 0,0 267,150"
             fill="none"
           />
         </defs>
@@ -124,7 +124,7 @@ export const LogoMillonario: React.FC<LogoMillonarioProps> = ({
           textAnchor="middle"
         >
           <textPath href="#textPathTop" startOffset="50%">
-            QUIEN QUIERE SER
+            QUIÉN QUIERE SER
           </textPath>
         </text>
 

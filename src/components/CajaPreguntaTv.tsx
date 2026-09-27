@@ -10,7 +10,7 @@ export const CajaPreguntaTv: React.FC<CajaPreguntaTvProps> = ({
   categoria,
 }) => {
   return (
-    <div className="relative flex items-center w-full max-w-5xl mx-auto my-2">
+    <div className="relative flex items-center w-full max-w-5xl mx-auto my-2 md:my-3">
       {/* Línea horizontal metálica izquierda que conecta al borde */}
       <div className="hidden md:block w-8 lg:w-16 h-[3px] bg-gradient-to-r from-transparent via-cyan-400 to-blue-200" />
 

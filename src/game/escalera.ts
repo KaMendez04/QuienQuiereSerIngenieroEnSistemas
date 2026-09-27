@@ -23,3 +23,15 @@ export const ESCALERA: NivelEscalera[] = [
   { nivel: 2, titulo: "Kardex aprobado", premio: "200 PTS" },
   { nivel: 1, titulo: "Estudiante de primer ingreso", premio: "100 PTS" },
 ];
+
+/**
+ * Premio asegurado al fallar en el nivel dado: el último "punto seguro"
+ * completado (niveles seguros ESTRICTAMENTE menores al nivel fallado).
+ * Si no se alcanzó ninguno, se va con 0 PTS.
+ */
+export function zonaSeguraAlcanzada(nivelFallado: number): NivelEscalera | null {
+  const seguros = ESCALERA.filter(
+    (n) => n.esSeguro && n.nivel < nivelFallado,
+  ).sort((a, b) => b.nivel - a.nivel);
+  return seguros[0] ?? null;
+}

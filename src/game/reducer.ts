@@ -1,4 +1,4 @@
-import type { EstadoJuego, Pregunta, Resultado } from "./tipos";
+import type { EstadoJuego, Pregunta, Resultado, SugerenciaAmigo } from "./tipos";
 
 export type Accion =
   | { type: "AVANZAR_PREGUNTA"; preguntaId: string; nivel: number }
@@ -6,12 +6,15 @@ export type Accion =
   | { type: "USAR_COMODIN_50_50"; opcionesEliminadas: number[] }
   | { type: "USAR_COMODIN_CONSULTA" }
   | { type: "USAR_COMODIN_AUDIENCIA"; distribucion: number[] }
+  | { type: "USAR_COMODIN_LLAMADA"; sugerencia: SugerenciaAmigo }
   | { type: "SELECCIONAR_OPCION"; index: number }
   | { type: "CONFIRMAR_RESPUESTA" }
   | { type: "REVELAR_RESPUESTA"; correctaIndex: number }
   | { type: "SIGUIENTE_NIVEL"; preguntaId: string; nivel: number }
   | { type: "PLANTARSE" }
   | { type: "REINICIAR_JUEGO" }
+  | { type: "ASIGNAR_PARTICIPANTE"; participanteId: string }
+  | { type: "LIBERAR_PARTICIPANTE" }
   | { type: "SINCRONIZAR_ESTADO"; estado: EstadoJuego };
 
 export const estadoInicial: EstadoJuego = {
@@ -21,6 +24,7 @@ export const estadoInicial: EstadoJuego = {
     cincuentaCincuenta: false,
     consultaProfesor: false,
     preguntaAudiencia: false,
+    llamadaAmigo: false,
   },
   opcionesEliminadas: [],
   opcionSeleccionada: null,
@@ -29,9 +33,21 @@ export const estadoInicial: EstadoJuego = {
   respuestaRevelada: false,
   resultado: null,
   distribucionAudiencia: null,
+  sugerenciaAmigo: null,
   retirado: false,
   fase: "esperando",
+  participanteId: null,
 };
+
+/** Hay una pregunta en juego y el concursante todavía puede interactuar. */
+function enJuego(estado: EstadoJuego): boolean {
+  return (
+    estado.preguntaActualId !== null &&
+    estado.fase === "jugando" &&
+    !estado.retirado &&
+    !estado.respuestaRevelada
+  );
+}
 
 export function opcionesIncorrectas(pregunta: Pregunta): number[] {
   const indices = pregunta.opciones
@@ -52,6 +68,23 @@ export function generarDistribucionAudiencia(correctaIndex: number): number[] {
   return pesos.map((p) => Math.round((p / total) * 100));
 }
 
+/**
+ * Consejo del amigo para el comodín de la llamada: en general acierta
+ * (~75% de las veces), pero a veces se equivoca como cualquier humano.
+ */
+export function generarSugerenciaAmigo(correctaIndex: number): SugerenciaAmigo {
+  const acierta = Math.random() < 0.75;
+  const index = acierta
+    ? correctaIndex
+    : ([0, 1, 2, 3] as const)
+        .filter((i) => i !== correctaIndex)
+        [Math.floor(Math.random() * 3)];
+  return {
+    index,
+    confianza: 50 + Math.floor(Math.random() * 40), // 50-89 %
+  };
+}
+
 export function reducer(estado: EstadoJuego, accion: Accion): EstadoJuego {
   switch (accion.type) {
     case "SINCRONIZAR_ESTADO":
@@ -61,6 +94,7 @@ export function reducer(estado: EstadoJuego, accion: Accion): EstadoJuego {
       return {
         ...estadoInicial,
         comodinesUsados: estado.comodinesUsados,
+        participanteId: estado.participanteId,
         nivel: accion.nivel,
         preguntaActualId: accion.preguntaId,
         fase: "jugando",
@@ -70,6 +104,7 @@ export function reducer(estado: EstadoJuego, accion: Accion): EstadoJuego {
       return {
         ...estadoInicial,
         comodinesUsados: estado.comodinesUsados,
+        participanteId: estado.participanteId,
         nivel: accion.nivel,
         preguntaActualId: accion.preguntaId,
         fase: "jugando",
@@ -80,7 +115,12 @@ export function reducer(estado: EstadoJuego, accion: Accion): EstadoJuego {
       return { ...estado, tiempoCorriendo: true };
 
     case "USAR_COMODIN_50_50": {
-      if (estado.comodinesUsados.cincuentaCincuenta) return estado;
+      if (
+        estado.comodinesUsados.cincuentaCincuenta ||
+        estado.respuestaConfirmada ||
+        !enJuego(estado)
+      )
+        return estado;
       return {
         ...estado,
         comodinesUsados: {
@@ -99,7 +139,12 @@ export function reducer(estado: EstadoJuego, accion: Accion): EstadoJuego {
       };
 
     case "USAR_COMODIN_AUDIENCIA": {
-      if (estado.comodinesUsados.preguntaAudiencia) return estado;
+      if (
+        estado.comodinesUsados.preguntaAudiencia ||
+        estado.respuestaConfirmada ||
+        !enJuego(estado)
+      )
+        return estado;
       return {
         ...estado,
         comodinesUsados: { ...estado.comodinesUsados, preguntaAudiencia: true },
@@ -107,8 +152,27 @@ export function reducer(estado: EstadoJuego, accion: Accion): EstadoJuego {
       };
     }
 
+    case "USAR_COMODIN_LLAMADA": {
+      if (
+        estado.comodinesUsados.llamadaAmigo ||
+        estado.respuestaConfirmada ||
+        !enJuego(estado)
+      )
+        return estado;
+      return {
+        ...estado,
+        comodinesUsados: {
+          ...estado.comodinesUsados,
+          llamadaAmigo: true,
+        },
+        sugerenciaAmigo: accion.sugerencia,
+      };
+    }
+
     case "SELECCIONAR_OPCION":
       if (
+        !enJuego(estado) ||
+        !Number.isInteger(accion.index) ||
         estado.respuestaConfirmada ||
         estado.opcionesEliminadas.includes(accion.index) ||
         accion.index < 0 ||
@@ -118,7 +182,11 @@ export function reducer(estado: EstadoJuego, accion: Accion): EstadoJuego {
       return { ...estado, opcionSeleccionada: accion.index };
 
     case "CONFIRMAR_RESPUESTA":
-      if (estado.opcionSeleccionada === null || estado.respuestaConfirmada)
+      if (
+        !enJuego(estado) ||
+        estado.opcionSeleccionada === null ||
+        estado.respuestaConfirmada
+      )
         return estado;
       return { ...estado, respuestaConfirmada: true, tiempoCorriendo: false };
 
@@ -139,6 +207,7 @@ export function reducer(estado: EstadoJuego, accion: Accion): EstadoJuego {
     }
 
     case "PLANTARSE":
+      if (!enJuego(estado) || estado.respuestaConfirmada) return estado;
       return {
         ...estado,
         retirado: true,
@@ -147,6 +216,13 @@ export function reducer(estado: EstadoJuego, accion: Accion): EstadoJuego {
       };
 
     case "REINICIAR_JUEGO":
+      return { ...estadoInicial, participanteId: estado.participanteId };
+
+    case "ASIGNAR_PARTICIPANTE":
+      if (estado.participanteId !== null) return estado;
+      return { ...estado, participanteId: accion.participanteId };
+
+    case "LIBERAR_PARTICIPANTE":
       return { ...estadoInicial };
 
     default:

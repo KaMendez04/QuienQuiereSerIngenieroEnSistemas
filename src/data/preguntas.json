@@ -1,5 +1,252 @@
 [
   {
+    "id": "n01-02",
+    "nivel": 1,
+    "categoria": "carrera",
+    "texto": "¿Qué dispositivo se usa principalmente para escribir texto en una computadora?",
+    "opciones": [
+      "Parlante",
+      "Teclado",
+      "Impresora",
+      "Monitor"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n01-03",
+    "nivel": 1,
+    "categoria": "carrera",
+    "texto": "¿Qué significa la sigla RAM?",
+    "opciones": [
+      "Memoria de Arranque Maestro",
+      "Registro de Acceso Múltiple",
+      "Memoria de Acceso Aleatorio",
+      "Memoria de Almacenamiento Rápido"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n01-04",
+    "nivel": 1,
+    "categoria": "carrera",
+    "texto": "¿Cuál de estos es un sistema operativo?",
+    "opciones": [
+      "Linux",
+      "HTML",
+      "Excel",
+      "Python"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n01-05",
+    "nivel": 1,
+    "categoria": "carrera",
+    "texto": "¿Cuántos bits tiene un byte?",
+    "opciones": [
+      "4",
+      "8",
+      "10",
+      "16"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n01-06",
+    "nivel": 1,
+    "categoria": "carrera",
+    "texto": "¿Qué es un navegador web?",
+    "opciones": [
+      "Un componente del procesador",
+      "Un programa para acceder a páginas web",
+      "Un tipo de virus",
+      "Un cable de red"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n01-07",
+    "nivel": 1,
+    "categoria": "carrera",
+    "texto": "¿Cuál de estos es un lenguaje de programación?",
+    "opciones": [
+      "Java",
+      "Windows",
+      "Intel",
+      "Word"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n01-08",
+    "nivel": 1,
+    "categoria": "carrera",
+    "texto": "¿Qué combinación de teclas se usa comúnmente para copiar en Windows?",
+    "opciones": [
+      "Ctrl + V",
+      "Ctrl + Z",
+      "Ctrl + X",
+      "Ctrl + C"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n01-09",
+    "nivel": 1,
+    "categoria": "carrera",
+    "texto": "¿Qué significa «www» en una dirección web?",
+    "opciones": [
+      "Web World Wide",
+      "Wide World Web",
+      "World Web Window",
+      "World Wide Web"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n01-10",
+    "nivel": 1,
+    "categoria": "carrera",
+    "texto": "¿Qué componente es considerado el «cerebro» de la computadora?",
+    "opciones": [
+      "El disco duro",
+      "La fuente de poder",
+      "El procesador (CPU)",
+      "El monitor"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n01-11",
+    "nivel": 1,
+    "categoria": "carrera",
+    "texto": "¿Cuál es la unidad más pequeña de información en computación?",
+    "opciones": [
+      "El píxel",
+      "El kilobyte",
+      "El bit",
+      "El byte"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n01-12",
+    "nivel": 1,
+    "categoria": "carrera",
+    "texto": "¿Qué extensión tienen normalmente los documentos modernos de Microsoft Word?",
+    "opciones": [
+      ".docx",
+      ".xlsx",
+      ".exe",
+      ".pptx"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n01-13",
+    "nivel": 1,
+    "categoria": "carrera",
+    "texto": "¿Qué sistema de numeración usa solo los dígitos 0 y 1?",
+    "opciones": [
+      "Binario",
+      "Octal",
+      "Hexadecimal",
+      "Decimal"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n01-14",
+    "nivel": 1,
+    "categoria": "carrera",
+    "texto": "¿Qué es el hardware?",
+    "opciones": [
+      "Los archivos guardados",
+      "Las partes físicas de la computadora",
+      "La conexión a internet",
+      "Los programas instalados"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n01-15",
+    "nivel": 1,
+    "categoria": "carrera",
+    "texto": "¿Qué empresa creó el sistema operativo Windows?",
+    "opciones": [
+      "Apple",
+      "IBM",
+      "Google",
+      "Microsoft"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n01-16",
+    "nivel": 1,
+    "categoria": "carrera",
+    "texto": "¿Qué periférico muestra la información visualmente al usuario?",
+    "opciones": [
+      "Escáner",
+      "Teclado",
+      "Monitor",
+      "Micrófono"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n01-17",
+    "nivel": 1,
+    "categoria": "logica",
+    "texto": "¿Cuántos lados tiene un hexágono?",
+    "opciones": [
+      "5",
+      "8",
+      "7",
+      "6"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n01-18",
+    "nivel": 1,
+    "categoria": "logica",
+    "texto": "Si hoy es lunes, ¿qué día será dentro de 3 días?",
+    "opciones": [
+      "Martes",
+      "Jueves",
+      "Viernes",
+      "Miércoles"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n01-19",
+    "nivel": 1,
+    "categoria": "logica",
+    "texto": "¿Qué número sigue en la serie: 2, 4, 6, 8, ...?",
+    "opciones": [
+      "10",
+      "9",
+      "12",
+      "16"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n01-20",
+    "nivel": 1,
+    "categoria": "logica",
+    "texto": "Si tengo 3 manzanas y me regalan el doble de las que tengo, ¿cuántas tengo en total?",
+    "opciones": [
+      "6",
+      "12",
+      "9",
+      "5"
+    ],
+    "correctaIndex": 2
+  },
+  {
     "id": "p01",
     "nivel": 1,
     "categoria": "carrera",
@@ -11,6 +258,253 @@
       "Computadora Personal Unificada"
     ],
     "correctaIndex": 1
+  },
+  {
+    "id": "n02-02",
+    "nivel": 2,
+    "categoria": "carrera",
+    "texto": "¿Qué significa la sigla USB?",
+    "opciones": [
+      "Unidad de Sistema Básico",
+      "Universal System Backup",
+      "Unified Storage Bus",
+      "Universal Serial Bus"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n02-03",
+    "nivel": 2,
+    "categoria": "carrera",
+    "texto": "¿Qué tipo de memoria pierde su contenido al apagar la computadora?",
+    "opciones": [
+      "RAM",
+      "ROM",
+      "Disco duro",
+      "Memoria USB"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n02-04",
+    "nivel": 2,
+    "categoria": "carrera",
+    "texto": "¿Qué lenguaje se usa para estructurar el contenido de una página web?",
+    "opciones": [
+      "CSS",
+      "SQL",
+      "HTML",
+      "C++"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n02-05",
+    "nivel": 2,
+    "categoria": "carrera",
+    "texto": "¿Cuántos kilobytes tiene un megabyte en base 2?",
+    "opciones": [
+      "512",
+      "1024",
+      "2048",
+      "100"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n02-06",
+    "nivel": 2,
+    "categoria": "carrera",
+    "texto": "¿Qué es un algoritmo?",
+    "opciones": [
+      "Un componente de hardware",
+      "Un lenguaje de programación",
+      "Un tipo de virus informático",
+      "Una secuencia finita de pasos para resolver un problema"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n02-07",
+    "nivel": 2,
+    "categoria": "carrera",
+    "texto": "¿Qué dirección IP se usa para referirse a la propia máquina (localhost)?",
+    "opciones": [
+      "192.168.0.1",
+      "10.0.0.255",
+      "127.0.0.1",
+      "255.255.255.255"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n02-08",
+    "nivel": 2,
+    "categoria": "carrera",
+    "texto": "¿Qué caracteriza al software libre?",
+    "opciones": [
+      "Solo funciona sin internet",
+      "No tiene interfaz gráfica",
+      "Nunca tiene errores",
+      "Puede usarse, estudiarse, modificarse y distribuirse"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n02-09",
+    "nivel": 2,
+    "categoria": "carrera",
+    "texto": "¿Qué hace un compilador?",
+    "opciones": [
+      "Elimina virus",
+      "Diseña interfaces gráficas",
+      "Traduce el código fuente a código máquina",
+      "Conecta la computadora a internet"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n02-10",
+    "nivel": 2,
+    "categoria": "carrera",
+    "texto": "¿Qué símbolo termina una instrucción en lenguajes como C, Java o C#?",
+    "opciones": [
+      ".",
+      ";",
+      "#",
+      ":"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n02-11",
+    "nivel": 2,
+    "categoria": "carrera",
+    "texto": "¿Cómo se escribe el número 5 en binario?",
+    "opciones": [
+      "101",
+      "110",
+      "111",
+      "100"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n02-12",
+    "nivel": 2,
+    "categoria": "carrera",
+    "texto": "¿Cuál de estas es la contraseña más segura?",
+    "opciones": [
+      "123456",
+      "T7#qL9!vRz2@",
+      "password",
+      "juan1999"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n02-13",
+    "nivel": 2,
+    "categoria": "carrera",
+    "texto": "¿Qué es el phishing?",
+    "opciones": [
+      "Un método para enfriar el procesador",
+      "Un tipo de cable de red",
+      "Un engaño para robar datos haciéndose pasar por una entidad confiable",
+      "Un lenguaje de programación"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n02-14",
+    "nivel": 2,
+    "categoria": "carrera",
+    "texto": "¿Qué significa la sigla URL?",
+    "opciones": [
+      "Localizador Uniforme de Recursos",
+      "Unidad de Red Local",
+      "Lenguaje Universal de Red",
+      "Usuario Registrado en Línea"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n02-15",
+    "nivel": 2,
+    "categoria": "carrera",
+    "texto": "¿Qué dispositivo dirige el tráfico entre tu red local e internet?",
+    "opciones": [
+      "Tarjeta de sonido",
+      "Monitor",
+      "Fuente de poder",
+      "Router"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n02-16",
+    "nivel": 2,
+    "categoria": "logica",
+    "texto": "Si 3 lápices cuestan ₡600, ¿cuánto cuestan 5 lápices?",
+    "opciones": [
+      "₡800",
+      "₡1000",
+      "₡900",
+      "₡1200"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n02-17",
+    "nivel": 2,
+    "categoria": "logica",
+    "texto": "¿Qué número sigue en la serie: 1, 3, 9, 27, ...?",
+    "opciones": [
+      "81",
+      "54",
+      "63",
+      "36"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n02-18",
+    "nivel": 2,
+    "categoria": "logica",
+    "texto": "Si A es mayor que B y B es mayor que C, ¿cuál es el menor?",
+    "opciones": [
+      "C",
+      "No se puede saber",
+      "A",
+      "B"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n02-19",
+    "nivel": 2,
+    "categoria": "logica",
+    "texto": "¿Cuántos minutos hay en 2 horas y media?",
+    "opciones": [
+      "130",
+      "250",
+      "120",
+      "150"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n02-20",
+    "nivel": 2,
+    "categoria": "logica",
+    "texto": "Todos los gatos son mamíferos y algunos mamíferos nadan. ¿Se concluye que algunos gatos nadan?",
+    "opciones": [
+      "Todos los gatos nadan",
+      "Sí, siempre",
+      "No necesariamente",
+      "Ningún gato nada"
+    ],
+    "correctaIndex": 2
   },
   {
     "id": "p02",
@@ -26,60 +520,2071 @@
     "correctaIndex": 2
   },
   {
+    "id": "n03-02",
+    "nivel": 3,
+    "categoria": "carrera",
+    "texto": "¿Cuál es el valor decimal del número binario 1101?",
+    "opciones": [
+      "12",
+      "14",
+      "11",
+      "13"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n03-03",
+    "nivel": 3,
+    "categoria": "carrera",
+    "texto": "¿Qué es una variable en programación?",
+    "opciones": [
+      "Un espacio con nombre para almacenar un valor",
+      "Un tipo de ciclo",
+      "Un error de sintaxis",
+      "Un archivo ejecutable"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n03-04",
+    "nivel": 3,
+    "categoria": "carrera",
+    "texto": "¿Qué operador lógico es verdadero solo si ambas condiciones son verdaderas?",
+    "opciones": [
+      "OR",
+      "AND",
+      "NOT",
+      "XOR"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n03-05",
+    "nivel": 3,
+    "categoria": "carrera",
+    "texto": "¿Qué tipo de dato almacena normalmente verdadero o falso?",
+    "opciones": [
+      "Entero",
+      "Cadena",
+      "Booleano",
+      "Flotante"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n03-06",
+    "nivel": 3,
+    "categoria": "carrera",
+    "texto": "¿Para qué se usa CSS en una página web?",
+    "opciones": [
+      "Para definir la presentación y el estilo",
+      "Para la lógica del servidor",
+      "Para gestionar la base de datos",
+      "Para almacenar datos"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n03-07",
+    "nivel": 3,
+    "categoria": "carrera",
+    "texto": "En programación, ¿qué es un «bug»?",
+    "opciones": [
+      "Un nuevo requerimiento",
+      "Una copia de respaldo",
+      "Un error o defecto en un programa",
+      "Un tipo de hardware"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n03-08",
+    "nivel": 3,
+    "categoria": "carrera",
+    "texto": "¿Cuál es el sistema de control de versiones más utilizado actualmente?",
+    "opciones": [
+      "Git",
+      "Excel",
+      "FTP",
+      "Photoshop"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n03-09",
+    "nivel": 3,
+    "categoria": "carrera",
+    "texto": "¿Cuántos valores distintos se pueden representar con 8 bits?",
+    "opciones": [
+      "256",
+      "128",
+      "255",
+      "512"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n03-10",
+    "nivel": 3,
+    "categoria": "carrera",
+    "texto": "¿Qué estructura repite un bloque mientras se cumpla una condición?",
+    "opciones": [
+      "return",
+      "if",
+      "switch",
+      "while"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n03-11",
+    "nivel": 3,
+    "categoria": "carrera",
+    "texto": "¿Qué es la computación en la nube?",
+    "opciones": [
+      "Una red inalámbrica local",
+      "Servicios de cómputo ofrecidos a través de internet",
+      "Un tipo de monitor",
+      "Un antivirus"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n03-12",
+    "nivel": 3,
+    "categoria": "carrera",
+    "texto": "¿Qué significa la sigla DNS?",
+    "opciones": [
+      "Servidor de Nombres Digital",
+      "Dirección de Red Simple",
+      "Sistema de Nombres de Dominio",
+      "Datos de Nodo Seguro"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n03-13",
+    "nivel": 3,
+    "categoria": "carrera",
+    "texto": "¿Qué dígito hexadecimal representa el número decimal 15?",
+    "opciones": [
+      "A",
+      "E",
+      "10",
+      "F"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n03-14",
+    "nivel": 3,
+    "categoria": "carrera",
+    "texto": "¿Qué es un sistema operativo?",
+    "opciones": [
+      "Un lenguaje de programación",
+      "Un navegador web",
+      "Un programa de ofimática",
+      "El software que gestiona el hardware y los recursos para los programas"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n03-15",
+    "nivel": 3,
+    "categoria": "carrera",
+    "texto": "En lenguajes como C o Java, ¿qué representa el índice 0 de un arreglo?",
+    "opciones": [
+      "El último elemento",
+      "El primer elemento",
+      "El segundo elemento",
+      "El tamaño del arreglo"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n03-16",
+    "nivel": 3,
+    "categoria": "logica",
+    "texto": "¿Qué número sigue en la serie: 1, 1, 2, 3, 5, 8, ...?",
+    "opciones": [
+      "16",
+      "13",
+      "11",
+      "12"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n03-17",
+    "nivel": 3,
+    "categoria": "logica",
+    "texto": "Un bus sale a las 9:45 y el viaje dura 1 h 35 min. ¿A qué hora llega?",
+    "opciones": [
+      "11:30",
+      "11:10",
+      "11:20",
+      "10:20"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n03-18",
+    "nivel": 3,
+    "categoria": "logica",
+    "texto": "Pedro es más alto que Juan y Juan es más alto que Luis. ¿Quién es el más bajo?",
+    "opciones": [
+      "Luis",
+      "Todos miden igual",
+      "Pedro",
+      "Juan"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n03-19",
+    "nivel": 3,
+    "categoria": "logica",
+    "texto": "¿Cuánto es el 25% de 240?",
+    "opciones": [
+      "64",
+      "50",
+      "60",
+      "48"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n03-20",
+    "nivel": 3,
+    "categoria": "logica",
+    "texto": "¿Cuál es la negación de «Todos los estudiantes aprobaron»?",
+    "opciones": [
+      "Todos reprobaron",
+      "Algunos estudiantes aprobaron",
+      "Ningún estudiante aprobó",
+      "Al menos un estudiante no aprobó"
+    ],
+    "correctaIndex": 3
+  },
+  {
     "id": "p03",
     "nivel": 3,
     "categoria": "carrera",
     "texto": "¿Cuál es el resultado de la expresión binaria 1011 + 0110?",
-    "opciones": ["11111", "10001", "10101", "11011"],
+    "opciones": [
+      "11111",
+      "10001",
+      "10101",
+      "11011"
+    ],
     "correctaIndex": 1
+  },
+  {
+    "id": "n04-02",
+    "nivel": 4,
+    "categoria": "carrera",
+    "texto": "¿Qué estructura de datos funciona bajo el principio FIFO (primero en entrar, primero en salir)?",
+    "opciones": [
+      "Pila",
+      "Grafo",
+      "Árbol",
+      "Cola"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n04-03",
+    "nivel": 4,
+    "categoria": "carrera",
+    "texto": "¿Qué imprime en Python: print(7 // 2)?",
+    "opciones": [
+      "3",
+      "1",
+      "3.5",
+      "4"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n04-04",
+    "nivel": 4,
+    "categoria": "carrera",
+    "texto": "¿Qué imprime en Python: print(7 % 3)?",
+    "opciones": [
+      "0",
+      "2",
+      "1",
+      "2.33"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n04-05",
+    "nivel": 4,
+    "categoria": "carrera",
+    "texto": "¿Qué es una función recursiva?",
+    "opciones": [
+      "Una función que no retorna nada",
+      "Una función que se llama a sí misma",
+      "Una función que se ejecuta en paralelo",
+      "Una función que solo usa variables globales"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n04-06",
+    "nivel": 4,
+    "categoria": "carrera",
+    "texto": "¿Qué puerto usa por defecto el protocolo HTTP?",
+    "opciones": [
+      "443",
+      "80",
+      "22",
+      "21"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n04-07",
+    "nivel": 4,
+    "categoria": "carrera",
+    "texto": "¿Qué puerto usa por defecto el protocolo HTTPS?",
+    "opciones": [
+      "8080",
+      "80",
+      "443",
+      "25"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n04-08",
+    "nivel": 4,
+    "categoria": "carrera",
+    "texto": "En programación orientada a objetos, ¿qué es una clase?",
+    "opciones": [
+      "Una plantilla para crear objetos",
+      "Un tipo de ciclo",
+      "Un mensaje de error",
+      "Una variable global"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n04-09",
+    "nivel": 4,
+    "categoria": "carrera",
+    "texto": "¿Qué comando de Git registra los cambios preparados en el repositorio local?",
+    "opciones": [
+      "git commit",
+      "git pull",
+      "git push",
+      "git clone"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n04-10",
+    "nivel": 4,
+    "categoria": "carrera",
+    "texto": "¿Qué comando de Git sube los commits locales al repositorio remoto?",
+    "opciones": [
+      "git init",
+      "git commit",
+      "git push",
+      "git add"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n04-11",
+    "nivel": 4,
+    "categoria": "carrera",
+    "texto": "¿Qué es el código fuente?",
+    "opciones": [
+      "El manual de usuario",
+      "Las instrucciones escritas por el programador en un lenguaje de programación",
+      "La base de datos del sistema",
+      "El archivo ejecutable binario"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n04-12",
+    "nivel": 4,
+    "categoria": "carrera",
+    "texto": "¿Qué sentencia SQL se usa para consultar datos de una tabla?",
+    "opciones": [
+      "UPDATE",
+      "INSERT",
+      "SELECT",
+      "DELETE"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n04-13",
+    "nivel": 4,
+    "categoria": "carrera",
+    "texto": "¿Cuál es el resultado de (true OR false) AND false?",
+    "opciones": [
+      "null",
+      "Error",
+      "true",
+      "false"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n04-14",
+    "nivel": 4,
+    "categoria": "carrera",
+    "texto": "¿Qué significa la sigla IDE?",
+    "opciones": [
+      "Entorno de Desarrollo Integrado",
+      "Interfaz de Datos Externos",
+      "Identificador de Dispositivo Electrónico",
+      "Instrucción de Datos Encriptados"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n04-15",
+    "nivel": 4,
+    "categoria": "carrera",
+    "texto": "¿Qué es una dirección MAC?",
+    "opciones": [
+      "Una dirección IP pública",
+      "Una clave de cifrado",
+      "Un identificador físico de una interfaz de red",
+      "Un modelo de computadora Apple"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n04-16",
+    "nivel": 4,
+    "categoria": "carrera",
+    "texto": "¿Cuál de estos NO es un lenguaje de programación?",
+    "opciones": [
+      "Ruby",
+      "Photoshop",
+      "C#",
+      "Python"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n04-17",
+    "nivel": 4,
+    "categoria": "logica",
+    "texto": "¿Qué número sigue en la serie: 3, 7, 15, 31, ...?",
+    "opciones": [
+      "64",
+      "62",
+      "47",
+      "63"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n04-18",
+    "nivel": 4,
+    "categoria": "logica",
+    "texto": "Si 5 máquinas hacen 5 piezas en 5 minutos, ¿cuánto tardan 100 máquinas en hacer 100 piezas?",
+    "opciones": [
+      "1 minuto",
+      "5 minutos",
+      "100 minutos",
+      "20 minutos"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n04-19",
+    "nivel": 4,
+    "categoria": "logica",
+    "texto": "Un número multiplicado por 4, menos 6, da 30. ¿Cuál es el número?",
+    "opciones": [
+      "9",
+      "6",
+      "12",
+      "8"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n04-20",
+    "nivel": 4,
+    "categoria": "logica",
+    "texto": "¿Cuál es el valor de verdad de «p → q» cuando p es falso y q es falso?",
+    "opciones": [
+      "Falso",
+      "Depende del contexto",
+      "Indeterminado",
+      "Verdadero"
+    ],
+    "correctaIndex": 3
   },
   {
     "id": "p04",
     "nivel": 4,
     "categoria": "carrera",
     "texto": "¿Qué estructura de datos funciona bajo el principio LIFO (último en entrar, primero en salir)?",
-    "opciones": ["Cola", "Lista enlazada", "Árbol binario", "Pila"],
+    "opciones": [
+      "Cola",
+      "Lista enlazada",
+      "Árbol binario",
+      "Pila"
+    ],
     "correctaIndex": 3
+  },
+  {
+    "id": "n05-02",
+    "nivel": 5,
+    "categoria": "carrera",
+    "texto": "¿Qué es un bucle infinito?",
+    "opciones": [
+      "Un ciclo cuya condición de salida nunca se cumple",
+      "Un error de compilación",
+      "Una función sin parámetros",
+      "Un ciclo que se ejecuta una sola vez"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n05-03",
+    "nivel": 5,
+    "categoria": "carrera",
+    "texto": "¿Qué sentencia SQL agrega filas nuevas a una tabla?",
+    "opciones": [
+      "CREATE",
+      "INSERT INTO",
+      "UPDATE",
+      "ADD ROW"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n05-04",
+    "nivel": 5,
+    "categoria": "carrera",
+    "texto": "¿Qué es una llave primaria (primary key)?",
+    "opciones": [
+      "Un índice de texto completo",
+      "Un campo que referencia otra tabla",
+      "Una columna que admite valores repetidos",
+      "Un campo que identifica de forma única cada fila"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n05-05",
+    "nivel": 5,
+    "categoria": "carrera",
+    "texto": "¿Qué es una llave foránea (foreign key)?",
+    "opciones": [
+      "Un índice que ordena la tabla",
+      "Un campo que no admite valores",
+      "Un campo que referencia la llave primaria de otra tabla",
+      "La contraseña de la base de datos"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n05-06",
+    "nivel": 5,
+    "categoria": "carrera",
+    "texto": "¿Qué es la encapsulación en POO?",
+    "opciones": [
+      "Crear múltiples instancias",
+      "Heredar atributos de otra clase",
+      "Ocultar los detalles internos de un objeto y exponer una interfaz",
+      "Convertir un objeto en texto"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n05-07",
+    "nivel": 5,
+    "categoria": "carrera",
+    "texto": "¿Cuál es la complejidad de la búsqueda lineal en el peor caso?",
+    "opciones": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n²)"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n05-08",
+    "nivel": 5,
+    "categoria": "carrera",
+    "texto": "¿Qué algoritmo de búsqueda requiere que el arreglo esté ordenado?",
+    "opciones": [
+      "Búsqueda binaria",
+      "Búsqueda lineal",
+      "Búsqueda secuencial con centinela",
+      "Búsqueda aleatoria"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n05-09",
+    "nivel": 5,
+    "categoria": "carrera",
+    "texto": "¿Cuál de estas es una dirección IPv4 privada?",
+    "opciones": [
+      "200.10.5.1",
+      "8.8.8.8",
+      "1.1.1.1",
+      "192.168.1.10"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n05-10",
+    "nivel": 5,
+    "categoria": "carrera",
+    "texto": "¿Qué es la herencia en POO?",
+    "opciones": [
+      "Borrar un objeto de memoria",
+      "Ejecutar dos métodos a la vez",
+      "Copiar un archivo a otro proyecto",
+      "El mecanismo por el que una clase adquiere atributos y métodos de otra"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n05-11",
+    "nivel": 5,
+    "categoria": "carrera",
+    "texto": "¿Qué significa la sigla HTTP?",
+    "opciones": [
+      "Hipervínculo de Transferencia Total",
+      "Protocolo de Transferencia de Hipertexto",
+      "Herramienta de Transferencia de Páginas",
+      "Protocolo de Texto de Alta Tecnología"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n05-12",
+    "nivel": 5,
+    "categoria": "carrera",
+    "texto": "¿Qué es JSON?",
+    "opciones": [
+      "Un formato de texto para intercambiar datos",
+      "Un framework de Java",
+      "Un protocolo de red",
+      "Un gestor de bases de datos"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n05-13",
+    "nivel": 5,
+    "categoria": "carrera",
+    "texto": "¿Qué es un framework?",
+    "opciones": [
+      "Una estructura base con herramientas para desarrollar software",
+      "Un virus informático",
+      "Un tipo de procesador",
+      "Un cable de red"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n05-14",
+    "nivel": 5,
+    "categoria": "carrera",
+    "texto": "¿Cuántas capas tiene el modelo OSI?",
+    "opciones": [
+      "7",
+      "6",
+      "4",
+      "5"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n05-15",
+    "nivel": 5,
+    "categoria": "carrera",
+    "texto": "¿Qué es un commit en Git?",
+    "opciones": [
+      "Un servidor de código",
+      "Un registro de cambios en el historial del repositorio",
+      "Una rama remota",
+      "Un conflicto de archivos"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n05-16",
+    "nivel": 5,
+    "categoria": "carrera",
+    "texto": "¿Qué es el malware?",
+    "opciones": [
+      "Un programa de ofimática",
+      "Un tipo de memoria",
+      "Un navegador ligero",
+      "Software diseñado para dañar o infiltrarse en un sistema"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n05-17",
+    "nivel": 5,
+    "categoria": "logica",
+    "texto": "Un reloj marca exactamente las 3:00. ¿Qué ángulo forman sus manecillas?",
+    "opciones": [
+      "120°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n05-18",
+    "nivel": 5,
+    "categoria": "logica",
+    "texto": "En una fila, Ana es la 7.ª desde el inicio y la 5.ª desde el final. ¿Cuántas personas hay?",
+    "opciones": [
+      "12",
+      "10",
+      "11",
+      "13"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n05-19",
+    "nivel": 5,
+    "categoria": "logica",
+    "texto": "Si 5 personas se saludan todas entre sí una sola vez, ¿cuántos saludos hay?",
+    "opciones": [
+      "15",
+      "10",
+      "25",
+      "20"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n05-20",
+    "nivel": 5,
+    "categoria": "logica",
+    "texto": "Si x + y = 10 y x − y = 4, ¿cuánto vale x?",
+    "opciones": [
+      "5",
+      "6",
+      "7",
+      "3"
+    ],
+    "correctaIndex": 2
   },
   {
     "id": "p05",
     "nivel": 5,
     "categoria": "logica",
     "texto": "¿Cuál es el siguiente número de la serie: 2, 6, 12, 20, 30, ...?",
-    "opciones": ["36", "40", "42", "44"],
+    "opciones": [
+      "36",
+      "40",
+      "42",
+      "44"
+    ],
     "correctaIndex": 2
+  },
+  {
+    "id": "n06-02",
+    "nivel": 6,
+    "categoria": "carrera",
+    "texto": "¿Qué sentencia SQL modifica datos existentes en una tabla?",
+    "opciones": [
+      "MODIFY",
+      "ALTER",
+      "INSERT",
+      "UPDATE"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n06-03",
+    "nivel": 6,
+    "categoria": "carrera",
+    "texto": "¿Qué es el polimorfismo en POO?",
+    "opciones": [
+      "Tener muchas variables globales",
+      "Duplicar código en varias clases",
+      "La capacidad de objetos distintos de responder al mismo mensaje de formas diferentes",
+      "Que una clase no tenga métodos"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n06-04",
+    "nivel": 6,
+    "categoria": "carrera",
+    "texto": "¿Qué protocolo se usa para enviar correos electrónicos?",
+    "opciones": [
+      "DNS",
+      "SMTP",
+      "FTP",
+      "SSH"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n06-05",
+    "nivel": 6,
+    "categoria": "carrera",
+    "texto": "¿Qué protocolo permite administrar un servidor remoto de forma segura por consola?",
+    "opciones": [
+      "Telnet",
+      "FTP",
+      "HTTP",
+      "SSH"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n06-06",
+    "nivel": 6,
+    "categoria": "carrera",
+    "texto": "¿Qué es una API?",
+    "opciones": [
+      "Un tipo de base de datos",
+      "Un lenguaje de marcado",
+      "Una interfaz que permite que distintos programas se comuniquen entre sí",
+      "Un componente de hardware"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n06-07",
+    "nivel": 6,
+    "categoria": "carrera",
+    "texto": "¿Qué método HTTP se usa normalmente para crear un recurso nuevo?",
+    "opciones": [
+      "POST",
+      "GET",
+      "HEAD",
+      "DELETE"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n06-08",
+    "nivel": 6,
+    "categoria": "carrera",
+    "texto": "¿Qué código de estado HTTP significa «No encontrado»?",
+    "opciones": [
+      "301",
+      "200",
+      "404",
+      "500"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n06-09",
+    "nivel": 6,
+    "categoria": "carrera",
+    "texto": "¿Qué código de estado HTTP indica un error interno del servidor?",
+    "opciones": [
+      "404",
+      "500",
+      "403",
+      "201"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n06-10",
+    "nivel": 6,
+    "categoria": "carrera",
+    "texto": "¿Qué mide la complejidad algorítmica?",
+    "opciones": [
+      "El costo de la licencia",
+      "Los recursos (tiempo o memoria) que usa un algoritmo según el tamaño de la entrada",
+      "El número de programadores necesarios",
+      "La cantidad de líneas de código"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n06-11",
+    "nivel": 6,
+    "categoria": "carrera",
+    "texto": "¿Qué algoritmo de ordenamiento compara elementos adyacentes y los intercambia repetidamente?",
+    "opciones": [
+      "Bubble sort",
+      "Merge sort",
+      "Quick sort",
+      "Heap sort"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n06-12",
+    "nivel": 6,
+    "categoria": "carrera",
+    "texto": "¿Qué hace el protocolo DHCP?",
+    "opciones": [
+      "Asigna automáticamente direcciones IP a los dispositivos",
+      "Transfiere archivos",
+      "Traduce nombres de dominio a IP",
+      "Cifra el tráfico web"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n06-13",
+    "nivel": 6,
+    "categoria": "carrera",
+    "texto": "¿Qué es un requerimiento funcional?",
+    "opciones": [
+      "Qué tan rápido debe responder el sistema",
+      "El presupuesto del proyecto",
+      "Una descripción de lo que el sistema debe hacer",
+      "El lenguaje en que se programará"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n06-14",
+    "nivel": 6,
+    "categoria": "carrera",
+    "texto": "¿Qué diagrama UML muestra los actores y las funcionalidades de un sistema?",
+    "opciones": [
+      "Diagrama de despliegue",
+      "Diagrama de clases",
+      "Diagrama de secuencia",
+      "Diagrama de casos de uso"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n06-15",
+    "nivel": 6,
+    "categoria": "carrera",
+    "texto": "¿Qué hace un merge en Git?",
+    "opciones": [
+      "Borra una rama",
+      "Integra los cambios de una rama en otra",
+      "Clona un repositorio",
+      "Revierte el último commit"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n06-16",
+    "nivel": 6,
+    "categoria": "carrera",
+    "texto": "¿Cuál de estas memorias es la más rápida?",
+    "opciones": [
+      "Un disco SSD",
+      "Un disco duro mecánico",
+      "La memoria RAM",
+      "La caché del procesador"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n06-17",
+    "nivel": 6,
+    "categoria": "logica",
+    "texto": "¿Qué número sigue en la serie: 1, 4, 9, 16, 25, ...?",
+    "opciones": [
+      "35",
+      "30",
+      "49",
+      "36"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n06-18",
+    "nivel": 6,
+    "categoria": "logica",
+    "texto": "Un producto de ₡10 000 tiene 20% de descuento y luego 10% adicional sobre el nuevo precio. ¿Cuál es el precio final?",
+    "opciones": [
+      "₡7500",
+      "₡8000",
+      "₡7200",
+      "₡7000"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n06-19",
+    "nivel": 6,
+    "categoria": "logica",
+    "texto": "¿Cuántos números de 3 cifras distintas se pueden formar con los dígitos 1, 2 y 3 sin repetir?",
+    "opciones": [
+      "6",
+      "3",
+      "27",
+      "9"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n06-20",
+    "nivel": 6,
+    "categoria": "logica",
+    "texto": "Tres amigos comparten una pizza de 12 porciones. Uno come la mitad y otro un tercio. ¿Cuántas porciones quedan para el tercero?",
+    "opciones": [
+      "1",
+      "2",
+      "4",
+      "3"
+    ],
+    "correctaIndex": 1
   },
   {
     "id": "p06",
     "nivel": 6,
     "categoria": "carrera",
     "texto": "¿Qué protocolo se utiliza para transferir páginas web de forma segura?",
-    "opciones": ["FTP", "HTTP", "HTTPS", "SMTP"],
+    "opciones": [
+      "FTP",
+      "HTTP",
+      "HTTPS",
+      "SMTP"
+    ],
     "correctaIndex": 2
+  },
+  {
+    "id": "n07-02",
+    "nivel": 7,
+    "categoria": "carrera",
+    "texto": "En SQL, ¿qué JOIN devuelve solo las filas con coincidencia en ambas tablas?",
+    "opciones": [
+      "RIGHT JOIN",
+      "FULL OUTER JOIN",
+      "LEFT JOIN",
+      "INNER JOIN"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n07-03",
+    "nivel": 7,
+    "categoria": "carrera",
+    "texto": "¿Qué función de agregación de SQL cuenta filas?",
+    "opciones": [
+      "MAX",
+      "AVG",
+      "COUNT",
+      "SUM"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n07-04",
+    "nivel": 7,
+    "categoria": "carrera",
+    "texto": "¿Qué caracteriza al protocolo TCP?",
+    "opciones": [
+      "No establece conexión ni garantiza entrega",
+      "Solo funciona en redes inalámbricas",
+      "Es orientado a conexión y garantiza la entrega ordenada",
+      "Resuelve nombres de dominio"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n07-05",
+    "nivel": 7,
+    "categoria": "carrera",
+    "texto": "¿Qué protocolo de transporte sin conexión se usa mucho en streaming y juegos en línea?",
+    "opciones": [
+      "UDP",
+      "TCP",
+      "FTP",
+      "HTTP"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n07-06",
+    "nivel": 7,
+    "categoria": "carrera",
+    "texto": "¿A qué máscara de subred equivale el prefijo /24?",
+    "opciones": [
+      "255.255.255.255",
+      "255.255.255.0",
+      "255.255.0.0",
+      "255.0.0.0"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n07-07",
+    "nivel": 7,
+    "categoria": "carrera",
+    "texto": "¿Qué es un deadlock (interbloqueo)?",
+    "opciones": [
+      "Un error de sintaxis",
+      "Un proceso que termina con éxito",
+      "Un apagado repentino del equipo",
+      "Procesos bloqueados esperando recursos que retienen otros procesos"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n07-08",
+    "nivel": 7,
+    "categoria": "carrera",
+    "texto": "¿Qué es un hilo (thread)?",
+    "opciones": [
+      "Un tipo de archivo",
+      "La unidad mínima de ejecución dentro de un proceso",
+      "Una tabla de la base de datos",
+      "Un cable de red"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n07-09",
+    "nivel": 7,
+    "categoria": "carrera",
+    "texto": "¿Qué es la abstracción en POO?",
+    "opciones": [
+      "Eliminar todas las clases",
+      "Escribir código sin comentarios",
+      "Representar solo las características esenciales de un objeto",
+      "Copiar un objeto en memoria"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n07-10",
+    "nivel": 7,
+    "categoria": "carrera",
+    "texto": "¿Qué es una interfaz en Java?",
+    "opciones": [
+      "Una ventana gráfica",
+      "Una librería de bases de datos",
+      "Un contrato que define métodos que una clase debe implementar",
+      "Un tipo de variable primitiva"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n07-11",
+    "nivel": 7,
+    "categoria": "carrera",
+    "texto": "¿Qué metodología ágil organiza el trabajo en sprints?",
+    "opciones": [
+      "Modelo en V",
+      "Modelo en espiral",
+      "Cascada",
+      "Scrum"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n07-12",
+    "nivel": 7,
+    "categoria": "carrera",
+    "texto": "En Scrum, ¿quién prioriza el Product Backlog?",
+    "opciones": [
+      "El equipo de desarrollo",
+      "El Scrum Master",
+      "El gerente de TI",
+      "El Product Owner"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n07-13",
+    "nivel": 7,
+    "categoria": "carrera",
+    "texto": "¿Para qué sirve un índice en una base de datos?",
+    "opciones": [
+      "Para acelerar la búsqueda de datos",
+      "Para hacer respaldos",
+      "Para cifrar la información",
+      "Para eliminar duplicados automáticamente"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n07-14",
+    "nivel": 7,
+    "categoria": "carrera",
+    "texto": "¿Cuál es la complejidad de Merge Sort en el peor caso?",
+    "opciones": [
+      "O(n log n)",
+      "O(n)",
+      "O(log n)",
+      "O(n²)"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n07-15",
+    "nivel": 7,
+    "categoria": "carrera",
+    "texto": "¿Cuál es la complejidad de Quick Sort en el peor caso?",
+    "opciones": [
+      "O(n log n)",
+      "O(n)",
+      "O(n²)",
+      "O(log n)"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n07-16",
+    "nivel": 7,
+    "categoria": "carrera",
+    "texto": "¿Qué caracteriza al cifrado simétrico?",
+    "opciones": [
+      "Usa una clave pública y una privada",
+      "Usa la misma clave para cifrar y descifrar",
+      "No necesita ninguna clave",
+      "Solo sirve para contraseñas"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n07-17",
+    "nivel": 7,
+    "categoria": "logica",
+    "texto": "¿Qué número sigue en la serie: 2, 3, 5, 7, 11, 13, ...?",
+    "opciones": [
+      "17",
+      "16",
+      "19",
+      "15"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n07-18",
+    "nivel": 7,
+    "categoria": "logica",
+    "texto": "Si todos los A son B y ningún B es C, entonces:",
+    "opciones": [
+      "Algunos C son B",
+      "Ningún A es C",
+      "Algunos A son C",
+      "Todos los C son A"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n07-19",
+    "nivel": 7,
+    "categoria": "logica",
+    "texto": "Un caracol sube 3 m de día y resbala 2 m de noche en un pozo de 10 m. ¿En qué día sale?",
+    "opciones": [
+      "8",
+      "10",
+      "9",
+      "7"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n07-20",
+    "nivel": 7,
+    "categoria": "logica",
+    "texto": "La mitad de un número es 3 más que su tercera parte. ¿Cuál es el número?",
+    "opciones": [
+      "12",
+      "18",
+      "36",
+      "24"
+    ],
+    "correctaIndex": 1
   },
   {
     "id": "p07",
     "nivel": 7,
     "categoria": "carrera",
     "texto": "En SQL, ¿qué cláusula se usa para filtrar filas después de agrupar con GROUP BY?",
-    "opciones": ["WHERE", "HAVING", "ORDER BY", "LIMIT"],
+    "opciones": [
+      "WHERE",
+      "HAVING",
+      "ORDER BY",
+      "LIMIT"
+    ],
     "correctaIndex": 1
+  },
+  {
+    "id": "n08-02",
+    "nivel": 8,
+    "categoria": "carrera",
+    "texto": "¿Qué forma normal elimina las dependencias parciales respecto a la llave primaria?",
+    "opciones": [
+      "Primera forma normal (1FN)",
+      "Tercera forma normal (3FN)",
+      "Forma normal de Boyce-Codd",
+      "Segunda forma normal (2FN)"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n08-03",
+    "nivel": 8,
+    "categoria": "carrera",
+    "texto": "¿Qué forma normal exige que todos los atributos sean atómicos?",
+    "opciones": [
+      "Primera forma normal (1FN)",
+      "Tercera forma normal (3FN)",
+      "Cuarta forma normal (4FN)",
+      "Segunda forma normal (2FN)"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n08-04",
+    "nivel": 8,
+    "categoria": "carrera",
+    "texto": "¿Qué sentencia SQL elimina una tabla junto con su estructura?",
+    "opciones": [
+      "DROP TABLE",
+      "TRUNCATE TABLE",
+      "REMOVE TABLE",
+      "DELETE FROM"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n08-05",
+    "nivel": 8,
+    "categoria": "carrera",
+    "texto": "¿Qué hace la cláusula DISTINCT en SQL?",
+    "opciones": [
+      "Ordena los resultados",
+      "Agrupa por columnas",
+      "Filtra valores nulos",
+      "Elimina las filas duplicadas del resultado"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n08-06",
+    "nivel": 8,
+    "categoria": "carrera",
+    "texto": "¿Qué es la inyección SQL?",
+    "opciones": [
+      "Un tipo de respaldo",
+      "Una vulnerabilidad donde se inserta SQL malicioso a través de entradas del usuario",
+      "Una forma de optimizar consultas",
+      "Una instrucción para crear índices"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n08-07",
+    "nivel": 8,
+    "categoria": "carrera",
+    "texto": "¿Cuál es la mejor defensa contra la inyección SQL?",
+    "opciones": [
+      "Ocultar la URL del sitio",
+      "Deshabilitar JavaScript",
+      "Usar consultas parametrizadas",
+      "Usar contraseñas largas"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n08-08",
+    "nivel": 8,
+    "categoria": "carrera",
+    "texto": "¿Qué es un ataque XSS (Cross-Site Scripting)?",
+    "opciones": [
+      "Adivinar contraseñas por fuerza bruta",
+      "Saturar un servidor con peticiones",
+      "Interceptar un cable de red",
+      "Inyectar scripts maliciosos en páginas que ven otros usuarios"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n08-09",
+    "nivel": 8,
+    "categoria": "carrera",
+    "texto": "¿Cuántas direcciones utilizables para hosts tiene una red /24?",
+    "opciones": [
+      "255",
+      "254",
+      "256",
+      "252"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n08-10",
+    "nivel": 8,
+    "categoria": "carrera",
+    "texto": "¿Qué hace NAT en una red?",
+    "opciones": [
+      "Traduce direcciones IP privadas a una dirección pública",
+      "Cifra los paquetes",
+      "Detecta virus",
+      "Asigna nombres de dominio"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n08-11",
+    "nivel": 8,
+    "categoria": "carrera",
+    "texto": "¿Qué estructura de datos utiliza el recorrido en anchura (BFS)?",
+    "opciones": [
+      "Pila",
+      "Montículo",
+      "Cola",
+      "Árbol AVL"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n08-12",
+    "nivel": 8,
+    "categoria": "carrera",
+    "texto": "¿Qué estructura de datos utiliza el recorrido en profundidad (DFS) iterativo?",
+    "opciones": [
+      "Pila",
+      "Cola",
+      "Lista circular",
+      "Tabla hash"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n08-13",
+    "nivel": 8,
+    "categoria": "carrera",
+    "texto": "¿Qué es una tabla hash?",
+    "opciones": [
+      "Un tipo de árbol binario",
+      "Una tabla de la base de datos cifrada",
+      "Una lista siempre ordenada",
+      "Una estructura que asocia claves con valores mediante una función hash"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n08-14",
+    "nivel": 8,
+    "categoria": "carrera",
+    "texto": "¿Cuál es la complejidad promedio de búsqueda en una tabla hash?",
+    "opciones": [
+      "O(log n)",
+      "O(n)",
+      "O(1)",
+      "O(n log n)"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n08-15",
+    "nivel": 8,
+    "categoria": "carrera",
+    "texto": "¿Qué es la memoria virtual?",
+    "opciones": [
+      "Una técnica que usa el disco para extender la memoria y da a cada proceso su propio espacio de direcciones",
+      "La memoria caché del procesador",
+      "Un disco duro externo",
+      "Memoria RAM instalada en la nube"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n08-16",
+    "nivel": 8,
+    "categoria": "carrera",
+    "texto": "¿Qué patrón arquitectónico separa Modelo, Vista y Controlador?",
+    "opciones": [
+      "MVVM",
+      "Microservicios",
+      "MVC",
+      "Cliente-servidor"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n08-17",
+    "nivel": 8,
+    "categoria": "logica",
+    "texto": "¿Cuántas diagonales tiene un hexágono?",
+    "opciones": [
+      "8",
+      "9",
+      "6",
+      "12"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n08-18",
+    "nivel": 8,
+    "categoria": "logica",
+    "texto": "¿Qué número sigue en la serie: 1, 2, 6, 24, 120, ...?",
+    "opciones": [
+      "840",
+      "600",
+      "720",
+      "240"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n08-19",
+    "nivel": 8,
+    "categoria": "logica",
+    "texto": "«Si llueve, la calle se moja» es verdad y la calle NO está mojada. ¿Qué se concluye?",
+    "opciones": [
+      "No se puede concluir nada",
+      "No llovió",
+      "Llovió",
+      "Llovió poco"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n08-20",
+    "nivel": 8,
+    "categoria": "logica",
+    "texto": "Un padre tiene 36 años y su hijo 6. ¿En cuántos años el padre tendrá el doble de la edad del hijo?",
+    "opciones": [
+      "12",
+      "18",
+      "30",
+      "24"
+    ],
+    "correctaIndex": 3
   },
   {
     "id": "p08",
     "nivel": 8,
     "categoria": "logica",
     "texto": "Un tanque se llena con dos llaves: la primera lo llena en 4 horas y la segunda en 6 horas. Trabajando juntas, ¿en cuánto tiempo lo llenan?",
-    "opciones": ["2 horas", "2.4 horas", "3 horas", "5 horas"],
+    "opciones": [
+      "2 horas",
+      "2.4 horas",
+      "3 horas",
+      "5 horas"
+    ],
     "correctaIndex": 1
+  },
+  {
+    "id": "n09-02",
+    "nivel": 9,
+    "categoria": "carrera",
+    "texto": "¿Qué propiedad ACID garantiza que una transacción confirmada persista aunque falle el sistema?",
+    "opciones": [
+      "Consistencia",
+      "Atomicidad",
+      "Aislamiento",
+      "Durabilidad"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n09-03",
+    "nivel": 9,
+    "categoria": "carrera",
+    "texto": "¿Qué es REST?",
+    "opciones": [
+      "Un estilo arquitectónico para servicios web basado en recursos y métodos HTTP",
+      "Un gestor de bases de datos",
+      "Un lenguaje de programación",
+      "Un protocolo de correo"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n09-04",
+    "nivel": 9,
+    "categoria": "carrera",
+    "texto": "¿Qué método HTTP idempotente se usa para reemplazar completamente un recurso?",
+    "opciones": [
+      "PUT",
+      "CONNECT",
+      "TRACE",
+      "POST"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n09-05",
+    "nivel": 9,
+    "categoria": "carrera",
+    "texto": "¿Qué caracteriza a un árbol binario de búsqueda?",
+    "opciones": [
+      "Cada nodo tiene exactamente tres hijos",
+      "No puede tener más de 10 nodos",
+      "Todos los nodos tienen el mismo valor",
+      "A la izquierda de cada nodo hay valores menores y a la derecha mayores"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n09-06",
+    "nivel": 9,
+    "categoria": "carrera",
+    "texto": "¿Cuántos niveles tiene como mínimo un árbol binario con 15 nodos?",
+    "opciones": [
+      "5",
+      "15",
+      "3",
+      "4"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n09-07",
+    "nivel": 9,
+    "categoria": "carrera",
+    "texto": "¿Qué es un proceso en un sistema operativo?",
+    "opciones": [
+      "Un archivo guardado en disco",
+      "Un dispositivo de entrada",
+      "Un programa en ejecución",
+      "Un usuario del sistema"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n09-08",
+    "nivel": 9,
+    "categoria": "carrera",
+    "texto": "¿Qué algoritmo de planificación de CPU asigna turnos de tiempo fijos a cada proceso?",
+    "opciones": [
+      "FCFS",
+      "SJF",
+      "Round Robin",
+      "Por prioridad"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n09-09",
+    "nivel": 9,
+    "categoria": "carrera",
+    "texto": "¿Por qué se aplica hashing a las contraseñas?",
+    "opciones": [
+      "Para poder descifrarlas fácilmente",
+      "Para no guardarlas en texto plano, usando una transformación unidireccional",
+      "Para comprimirlas",
+      "Para convertirlas a Base64"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n09-10",
+    "nivel": 9,
+    "categoria": "carrera",
+    "texto": "¿Cuál de estos algoritmos es adecuado para guardar contraseñas?",
+    "opciones": [
+      "MD5",
+      "bcrypt",
+      "ROT13",
+      "Base64"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n09-11",
+    "nivel": 9,
+    "categoria": "carrera",
+    "texto": "¿Qué es un contenedor en Docker?",
+    "opciones": [
+      "Un lenguaje de scripting",
+      "Una máquina virtual con su propio kernel",
+      "Un repositorio de Git",
+      "Una instancia aislada y en ejecución de una imagen"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n09-12",
+    "nivel": 9,
+    "categoria": "carrera",
+    "texto": "En diseño de software, ¿qué es el acoplamiento?",
+    "opciones": [
+      "La velocidad de ejecución",
+      "La cantidad de líneas de un módulo",
+      "El grado de dependencia entre módulos",
+      "El número de desarrolladores"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n09-13",
+    "nivel": 9,
+    "categoria": "carrera",
+    "texto": "¿Qué se busca en un buen diseño de software?",
+    "opciones": [
+      "Baja cohesión y alto acoplamiento",
+      "Baja cohesión y bajo acoplamiento",
+      "Alta cohesión y bajo acoplamiento",
+      "Alta cohesión y alto acoplamiento"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n09-14",
+    "nivel": 9,
+    "categoria": "carrera",
+    "texto": "¿Qué es una prueba unitaria?",
+    "opciones": [
+      "Una prueba que verifica una unidad pequeña de código de forma aislada",
+      "Una prueba con usuarios finales",
+      "Una prueba de carga del servidor",
+      "Una revisión del diseño gráfico"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n09-15",
+    "nivel": 9,
+    "categoria": "carrera",
+    "texto": "¿Qué sentencia SQL crea una vista?",
+    "opciones": [
+      "CREATE VIEW",
+      "MAKE VIEW",
+      "DEFINE VIEW",
+      "CREATE TABLE"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n09-16",
+    "nivel": 9,
+    "categoria": "carrera",
+    "texto": "¿Cómo se escribe el número decimal 255 en hexadecimal?",
+    "opciones": [
+      "EF",
+      "100",
+      "FF",
+      "FE"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n09-17",
+    "nivel": 9,
+    "categoria": "logica",
+    "texto": "¿Qué número sigue en la serie: 3, 6, 11, 18, 27, ...?",
+    "opciones": [
+      "38",
+      "36",
+      "40",
+      "35"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n09-18",
+    "nivel": 9,
+    "categoria": "logica",
+    "texto": "De 30 estudiantes, 18 llevan Programación, 15 llevan Redes y 7 llevan ambas. ¿Cuántos no llevan ninguna?",
+    "opciones": [
+      "7",
+      "4",
+      "3",
+      "0"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n09-19",
+    "nivel": 9,
+    "categoria": "logica",
+    "texto": "Tres interruptores afuera controlan una bombilla dentro de un cuarto al que entras una sola vez. ¿Qué propiedad extra de la bombilla usas para saber cuál la enciende?",
+    "opciones": [
+      "Su tamaño",
+      "Su temperatura",
+      "Su marca",
+      "Su color"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n09-20",
+    "nivel": 9,
+    "categoria": "logica",
+    "texto": "¿Cuántos números pares hay entre 1 y 100, inclusive?",
+    "opciones": [
+      "49",
+      "100",
+      "51",
+      "50"
+    ],
+    "correctaIndex": 3
   },
   {
     "id": "p09",
     "nivel": 9,
     "categoria": "carrera",
     "texto": "¿Cuál es la complejidad temporal promedio de la búsqueda en un árbol binario de búsqueda balanceado?",
-    "opciones": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "opciones": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n log n)"
+    ],
     "correctaIndex": 1
+  },
+  {
+    "id": "n10-02",
+    "nivel": 10,
+    "categoria": "carrera",
+    "texto": "¿Qué protocolo obtiene la dirección MAC a partir de una dirección IPv4?",
+    "opciones": [
+      "ARP",
+      "ICMP",
+      "DNS",
+      "DHCP"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n10-03",
+    "nivel": 10,
+    "categoria": "carrera",
+    "texto": "¿Qué protocolo utiliza el comando ping?",
+    "opciones": [
+      "TCP",
+      "ARP",
+      "ICMP",
+      "UDP"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n10-04",
+    "nivel": 10,
+    "categoria": "carrera",
+    "texto": "¿Cuántos bits tiene una dirección IPv6?",
+    "opciones": [
+      "128",
+      "32",
+      "256",
+      "64"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n10-05",
+    "nivel": 10,
+    "categoria": "carrera",
+    "texto": "¿Cuál es la secuencia para establecer una conexión TCP?",
+    "opciones": [
+      "HELLO → ACK → SYN",
+      "SYN → SYN-ACK → ACK",
+      "ACK → SYN → SYN-ACK",
+      "SYN → ACK → FIN"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n10-06",
+    "nivel": 10,
+    "categoria": "carrera",
+    "texto": "¿Qué es la paginación en un sistema operativo?",
+    "opciones": [
+      "Dividir el disco en particiones",
+      "Ordenar archivos alfabéticamente",
+      "Imprimir documentos por páginas",
+      "Dividir la memoria en bloques de tamaño fijo llamados páginas y marcos"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n10-07",
+    "nivel": 10,
+    "categoria": "carrera",
+    "texto": "¿Qué es el thrashing?",
+    "opciones": [
+      "Un ataque de denegación de servicio",
+      "Cuando el sistema pasa más tiempo intercambiando páginas que ejecutando procesos",
+      "Sobrecalentamiento del procesador",
+      "Borrar archivos temporales"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n10-08",
+    "nivel": 10,
+    "categoria": "carrera",
+    "texto": "¿Qué principio SOLID dice que una clase debe tener una sola razón para cambiar?",
+    "opciones": [
+      "Abierto/cerrado",
+      "Responsabilidad única",
+      "Inversión de dependencias",
+      "Sustitución de Liskov"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n10-09",
+    "nivel": 10,
+    "categoria": "carrera",
+    "texto": "¿Qué principio SOLID dice que el software debe estar abierto a extensión y cerrado a modificación?",
+    "opciones": [
+      "Abierto/cerrado",
+      "Responsabilidad única",
+      "Segregación de interfaces",
+      "Sustitución de Liskov"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n10-10",
+    "nivel": 10,
+    "categoria": "carrera",
+    "texto": "¿Qué es una condición de carrera (race condition)?",
+    "opciones": [
+      "Una prueba de velocidad del procesador",
+      "Un algoritmo de ordenamiento",
+      "Un error donde el resultado depende del orden no controlado de ejecución de los hilos",
+      "Una competencia de programación"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n10-11",
+    "nivel": 10,
+    "categoria": "carrera",
+    "texto": "¿Qué mecanismo garantiza exclusión mutua en una sección crítica?",
+    "opciones": [
+      "Un mutex",
+      "La paginación",
+      "La memoria caché",
+      "Una interrupción de teclado"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n10-12",
+    "nivel": 10,
+    "categoria": "carrera",
+    "texto": "¿Qué es la programación dinámica?",
+    "opciones": [
+      "Programar mientras el sistema está en ejecución",
+      "Usar solo lenguajes interpretados",
+      "Resolver problemas dividiéndolos en subproblemas superpuestos y guardando sus resultados",
+      "Cambiar el tipo de las variables en tiempo de ejecución"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n10-13",
+    "nivel": 10,
+    "categoria": "carrera",
+    "texto": "¿Qué algoritmo encuentra el camino más corto desde un origen en un grafo con pesos no negativos?",
+    "opciones": [
+      "Kruskal",
+      "Prim",
+      "Dijkstra",
+      "DFS"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n10-14",
+    "nivel": 10,
+    "categoria": "carrera",
+    "texto": "¿Qué es CORS?",
+    "opciones": [
+      "Un tipo de certificado SSL",
+      "Un algoritmo de compresión",
+      "Un lenguaje de consultas",
+      "Un mecanismo del navegador que controla peticiones entre orígenes distintos"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n10-15",
+    "nivel": 10,
+    "categoria": "carrera",
+    "texto": "¿Qué es un JWT?",
+    "opciones": [
+      "Un framework de Java",
+      "Un token firmado que transporta información (claims) de forma compacta",
+      "Un tipo de base de datos",
+      "Un protocolo de red inalámbrica"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n10-16",
+    "nivel": 10,
+    "categoria": "carrera",
+    "texto": "¿Qué es la integración continua?",
+    "opciones": [
+      "Conectar dos bases de datos",
+      "Trabajar sin descansos",
+      "Actualizar el sistema operativo cada día",
+      "Integrar y probar automáticamente el código de forma frecuente"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n10-17",
+    "nivel": 10,
+    "categoria": "logica",
+    "texto": "¿Qué número sigue en la serie: 2, 5, 10, 17, 26, ...?",
+    "opciones": [
+      "35",
+      "37",
+      "38",
+      "36"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n10-18",
+    "nivel": 10,
+    "categoria": "logica",
+    "texto": "En una carrera adelantas al que va en segundo lugar. ¿En qué posición quedas?",
+    "opciones": [
+      "Primero",
+      "Tercero",
+      "Depende de los demás",
+      "Segundo"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n10-19",
+    "nivel": 10,
+    "categoria": "logica",
+    "texto": "Si 6 obreros construyen un muro en 10 días, ¿cuántos días tardan 15 obreros?",
+    "opciones": [
+      "4",
+      "6",
+      "5",
+      "25"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n10-20",
+    "nivel": 10,
+    "categoria": "logica",
+    "texto": "Al lanzar dos monedas, ¿cuál es la probabilidad de obtener exactamente dos caras?",
+    "opciones": [
+      "3/4",
+      "1/2",
+      "1/3",
+      "1/4"
+    ],
+    "correctaIndex": 3
   },
   {
     "id": "p10",
@@ -95,6 +2600,253 @@
     "correctaIndex": 1
   },
   {
+    "id": "n11-02",
+    "nivel": 11,
+    "categoria": "carrera",
+    "texto": "¿Qué nivel de aislamiento SQL evita lecturas sucias, no repetibles y fantasma?",
+    "opciones": [
+      "REPEATABLE READ",
+      "READ COMMITTED",
+      "READ UNCOMMITTED",
+      "SERIALIZABLE"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n11-03",
+    "nivel": 11,
+    "categoria": "carrera",
+    "texto": "¿Qué es un trigger en una base de datos?",
+    "opciones": [
+      "Un índice especial",
+      "Una copia de seguridad automática",
+      "Una consulta programada por el usuario",
+      "Un procedimiento que se ejecuta automáticamente ante un evento como INSERT, UPDATE o DELETE"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n11-04",
+    "nivel": 11,
+    "categoria": "carrera",
+    "texto": "¿Qué es la desnormalización?",
+    "opciones": [
+      "Eliminar todas las llaves foráneas",
+      "Borrar datos duplicados",
+      "Introducir redundancia intencional para mejorar el rendimiento de lectura",
+      "Convertir la base de datos a NoSQL"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n11-05",
+    "nivel": 11,
+    "categoria": "carrera",
+    "texto": "¿Qué establece el teorema CAP?",
+    "opciones": [
+      "Un sistema distribuido no puede garantizar a la vez consistencia, disponibilidad y tolerancia a particiones",
+      "Toda base de datos debe cumplir ACID",
+      "Los datos deben cifrarse en reposo",
+      "Un servidor soporta máximo tres réplicas"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n11-06",
+    "nivel": 11,
+    "categoria": "carrera",
+    "texto": "¿Qué árbol se autobalancea usando rotaciones y un factor de balance?",
+    "opciones": [
+      "Trie",
+      "Árbol AVL",
+      "Árbol de expresión",
+      "Árbol binario simple"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n11-07",
+    "nivel": 11,
+    "categoria": "carrera",
+    "texto": "¿Qué estructura se usa típicamente para implementar una cola de prioridad?",
+    "opciones": [
+      "Un montículo (heap)",
+      "Una tabla hash",
+      "Una pila",
+      "Una lista circular"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n11-08",
+    "nivel": 11,
+    "categoria": "carrera",
+    "texto": "¿Cuál es la complejidad de insertar un elemento en un heap binario?",
+    "opciones": [
+      "O(n)",
+      "O(n log n)",
+      "O(1)",
+      "O(log n)"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n11-09",
+    "nivel": 11,
+    "categoria": "carrera",
+    "texto": "¿Qué algoritmo construye el árbol de expansión mínima ordenando las aristas por peso?",
+    "opciones": [
+      "Floyd-Warshall",
+      "Dijkstra",
+      "Kruskal",
+      "Bellman-Ford"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n11-10",
+    "nivel": 11,
+    "categoria": "carrera",
+    "texto": "¿Qué es Kubernetes?",
+    "opciones": [
+      "Un antivirus",
+      "Un lenguaje de programación",
+      "Un sistema de control de versiones",
+      "Una plataforma para orquestar contenedores"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n11-11",
+    "nivel": 11,
+    "categoria": "carrera",
+    "texto": "¿Qué es la infraestructura como código (IaC)?",
+    "opciones": [
+      "Escribir código dentro de la base de datos",
+      "Programar directamente el hardware",
+      "Instalar servidores manualmente",
+      "Gestionar la infraestructura mediante archivos de configuración versionables"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n11-12",
+    "nivel": 11,
+    "categoria": "carrera",
+    "texto": "¿Qué es un proxy inverso (reverse proxy)?",
+    "opciones": [
+      "Un navegador anónimo",
+      "Un firewall personal",
+      "Un servidor que recibe las peticiones de los clientes y las reenvía a servidores internos",
+      "Un servidor de correo"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n11-13",
+    "nivel": 11,
+    "categoria": "carrera",
+    "texto": "¿Qué capa del modelo OSI trabaja con tramas y direcciones MAC?",
+    "opciones": [
+      "Transporte",
+      "Enlace de datos",
+      "Física",
+      "Red"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n11-14",
+    "nivel": 11,
+    "categoria": "carrera",
+    "texto": "¿Qué patrón de diseño notifica automáticamente a varios objetos cuando otro cambia de estado?",
+    "opciones": [
+      "Factory",
+      "Singleton",
+      "Observer",
+      "Adapter"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n11-15",
+    "nivel": 11,
+    "categoria": "carrera",
+    "texto": "¿Qué patrón de diseño permite que interfaces incompatibles trabajen juntas?",
+    "opciones": [
+      "Observer",
+      "Adapter",
+      "Builder",
+      "Decorator"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n11-16",
+    "nivel": 11,
+    "categoria": "carrera",
+    "texto": "¿En qué consiste un despliegue blue-green?",
+    "opciones": [
+      "Pintar la interfaz de azul y verde",
+      "Mantener dos entornos idénticos y cambiar el tráfico del viejo al nuevo",
+      "Usar dos lenguajes de programación",
+      "Desplegar solo de noche"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n11-17",
+    "nivel": 11,
+    "categoria": "logica",
+    "texto": "¿Qué número sigue en la serie: 1, 8, 27, 64, ...?",
+    "opciones": [
+      "125",
+      "81",
+      "128",
+      "100"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n11-18",
+    "nivel": 11,
+    "categoria": "logica",
+    "texto": "¿De cuántas formas distintas se pueden ordenar las letras de la palabra CASA?",
+    "opciones": [
+      "6",
+      "24",
+      "12",
+      "16"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n11-19",
+    "nivel": 11,
+    "categoria": "logica",
+    "texto": "En un número de dos cifras, la suma de sus cifras es 9 y al invertirlas el número aumenta en 27. ¿Cuál es?",
+    "opciones": [
+      "45",
+      "36",
+      "18",
+      "27"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n11-20",
+    "nivel": 11,
+    "categoria": "logica",
+    "texto": "A dice «B miente», B dice «C miente» y C dice «A y B mienten». ¿Quién dice la verdad?",
+    "opciones": [
+      "B",
+      "A",
+      "Ninguno",
+      "C"
+    ],
+    "correctaIndex": 0
+  },
+  {
     "id": "p11",
     "nivel": 11,
     "categoria": "carrera",
@@ -108,11 +2860,510 @@
     "correctaIndex": 1
   },
   {
+    "id": "n12-02",
+    "nivel": 12,
+    "categoria": "carrera",
+    "texto": "¿Qué notación describe una cota superior asintótica?",
+    "opciones": [
+      "Omega grande (Ω)",
+      "Notación polaca",
+      "O grande",
+      "Theta grande (Θ)"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n12-03",
+    "nivel": 12,
+    "categoria": "carrera",
+    "texto": "¿Cuál es la complejidad de multiplicar dos matrices n×n con el algoritmo clásico?",
+    "opciones": [
+      "O(2ⁿ)",
+      "O(n³)",
+      "O(n²)",
+      "O(n log n)"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n12-04",
+    "nivel": 12,
+    "categoria": "carrera",
+    "texto": "¿Qué algoritmo calcula los caminos más cortos entre todos los pares de nodos?",
+    "opciones": [
+      "Prim",
+      "Floyd-Warshall",
+      "Dijkstra",
+      "Kruskal"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n12-05",
+    "nivel": 12,
+    "categoria": "carrera",
+    "texto": "¿Qué algoritmo de caminos más cortos admite pesos negativos y detecta ciclos negativos?",
+    "opciones": [
+      "BFS",
+      "Dijkstra",
+      "Prim",
+      "Bellman-Ford"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n12-06",
+    "nivel": 12,
+    "categoria": "carrera",
+    "texto": "¿Qué es un autómata finito determinista?",
+    "opciones": [
+      "Una máquina con memoria infinita",
+      "Una máquina de estados finitos con exactamente una transición por estado y símbolo",
+      "Un robot industrial",
+      "Un algoritmo de ordenamiento"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n12-07",
+    "nivel": 12,
+    "categoria": "carrera",
+    "texto": "¿Qué tipo de lenguajes reconocen los autómatas de pila?",
+    "opciones": [
+      "Ningún lenguaje formal",
+      "Libres de contexto",
+      "Recursivamente enumerables",
+      "Sensibles al contexto"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n12-08",
+    "nivel": 12,
+    "categoria": "carrera",
+    "texto": "¿Qué es la virtualización?",
+    "opciones": [
+      "Jugar videojuegos de realidad virtual",
+      "Guardar archivos en la nube",
+      "Crear versiones virtuales de hardware para ejecutar varios sistemas en una misma máquina física",
+      "Dibujar modelos 3D"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n12-09",
+    "nivel": 12,
+    "categoria": "carrera",
+    "texto": "¿Qué es un hipervisor?",
+    "opciones": [
+      "Un supervisor de proyectos",
+      "Un tipo de procesador",
+      "Un antivirus avanzado",
+      "Software que crea y gestiona máquinas virtuales"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n12-10",
+    "nivel": 12,
+    "categoria": "carrera",
+    "texto": "¿Qué es BGP?",
+    "opciones": [
+      "El protocolo de enrutamiento entre sistemas autónomos en internet",
+      "Un protocolo de correo",
+      "Un formato de imagen",
+      "Un sistema de archivos"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n12-11",
+    "nivel": 12,
+    "categoria": "carrera",
+    "texto": "¿Qué algoritmo usa OSPF para calcular las rutas?",
+    "opciones": [
+      "A*",
+      "Bellman-Ford",
+      "Dijkstra (SPF)",
+      "Kruskal"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n12-12",
+    "nivel": 12,
+    "categoria": "carrera",
+    "texto": "¿Qué tipo de cifrado usa un par de claves pública y privada?",
+    "opciones": [
+      "Hashing",
+      "Codificación Base64",
+      "Simétrico",
+      "Asimétrico"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n12-13",
+    "nivel": 12,
+    "categoria": "carrera",
+    "texto": "¿Qué es un certificado digital TLS?",
+    "opciones": [
+      "Un documento que vincula una clave pública con una identidad, firmado por una autoridad certificadora",
+      "Un título universitario digital",
+      "Un tipo de cookie",
+      "Una contraseña cifrada"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n12-14",
+    "nivel": 12,
+    "categoria": "carrera",
+    "texto": "¿Qué es el sharding en bases de datos?",
+    "opciones": [
+      "Particionar horizontalmente los datos entre varios servidores",
+      "Crear respaldos diarios",
+      "Cifrar las columnas sensibles",
+      "Normalizar las tablas"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n12-15",
+    "nivel": 12,
+    "categoria": "carrera",
+    "texto": "¿Qué es la consistencia eventual?",
+    "opciones": [
+      "Las réplicas terminan convergiendo al mismo valor si no hay nuevas escrituras",
+      "La base de datos se bloquea en cada escritura",
+      "Los datos nunca son consistentes",
+      "Solo existe una réplica"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n12-16",
+    "nivel": 12,
+    "categoria": "carrera",
+    "texto": "¿Qué es un ataque CSRF?",
+    "opciones": [
+      "Leer la memoria del procesador",
+      "Inducir al navegador de una víctima autenticada a enviar peticiones no deseadas",
+      "Saturar el servidor con tráfico",
+      "Adivinar contraseñas por fuerza bruta"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n12-17",
+    "nivel": 12,
+    "categoria": "logica",
+    "texto": "¿Qué número sigue en la serie: 1, 3, 6, 10, 15, 21, ...?",
+    "opciones": [
+      "26",
+      "30",
+      "27",
+      "28"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n12-18",
+    "nivel": 12,
+    "categoria": "logica",
+    "texto": "¿Con cuántos ceros termina 25! (factorial de 25)?",
+    "opciones": [
+      "7",
+      "5",
+      "6",
+      "4"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n12-19",
+    "nivel": 12,
+    "categoria": "logica",
+    "texto": "Al lanzar dos dados, ¿cuál es la probabilidad de que la suma sea 7?",
+    "opciones": [
+      "1/6",
+      "7/36",
+      "1/12",
+      "1/9"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n12-20",
+    "nivel": 12,
+    "categoria": "logica",
+    "texto": "Hay tres cajas etiquetadas «Manzanas», «Naranjas» y «Mixta», todas mal etiquetadas. ¿De cuál sacas una fruta para corregir todas las etiquetas?",
+    "opciones": [
+      "De la etiquetada «Manzanas»",
+      "Es imposible con una sola fruta",
+      "De la etiquetada «Naranjas»",
+      "De la etiquetada «Mixta»"
+    ],
+    "correctaIndex": 3
+  },
+  {
     "id": "p12",
     "nivel": 12,
     "categoria": "logica",
     "texto": "Tienes 8 bolas idénticas, una es más pesada. Con una balanza de dos platillos, ¿cuál es el número mínimo de pesadas para encontrarla?",
-    "opciones": ["1", "2", "3", "4"],
+    "opciones": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n13-02",
+    "nivel": 13,
+    "categoria": "carrera",
+    "texto": "¿Qué problema demostró Turing que es indecidible?",
+    "opciones": [
+      "Ordenar una lista",
+      "Determinar si un número es primo",
+      "Encontrar el camino más corto",
+      "El problema de la parada (halting problem)"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n13-03",
+    "nivel": 13,
+    "categoria": "carrera",
+    "texto": "¿Qué significa que un problema sea NP-completo?",
+    "opciones": [
+      "No tiene solución",
+      "Solo lo resuelven computadoras cuánticas",
+      "Está en NP y todo problema de NP se reduce a él en tiempo polinomial",
+      "Se resuelve siempre en tiempo lineal"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n13-04",
+    "nivel": 13,
+    "categoria": "carrera",
+    "texto": "¿Cuál de estos problemas es NP-completo?",
+    "opciones": [
+      "Ordenar un arreglo",
+      "Camino más corto con Dijkstra",
+      "Búsqueda binaria",
+      "SAT (satisfacibilidad booleana)"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n13-05",
+    "nivel": 13,
+    "categoria": "carrera",
+    "texto": "¿Qué es la recursión de cola (tail recursion)?",
+    "opciones": [
+      "Cuando la llamada recursiva es la última operación de la función",
+      "Una recursión con dos llamadas",
+      "Una recursión que usa una cola FIFO",
+      "Una recursión sin caso base"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n13-06",
+    "nivel": 13,
+    "categoria": "carrera",
+    "texto": "¿Para qué sirve el algoritmo del banquero?",
+    "opciones": [
+      "Para cifrar transacciones",
+      "Para ordenar procesos por prioridad",
+      "Para evitar interbloqueos verificando que el sistema quede en un estado seguro",
+      "Para calcular intereses bancarios"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n13-07",
+    "nivel": 13,
+    "categoria": "carrera",
+    "texto": "¿Cuáles son las condiciones de Coffman para que ocurra un deadlock?",
+    "opciones": [
+      "Lectura, escritura, ejecución y borrado",
+      "Exclusión mutua, retención y espera, no expropiación y espera circular",
+      "Concurrencia, paralelismo, caché y memoria",
+      "Atomicidad, consistencia, aislamiento y durabilidad"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n13-08",
+    "nivel": 13,
+    "categoria": "carrera",
+    "texto": "¿Qué es la memoización?",
+    "opciones": [
+      "Liberar memoria no usada",
+      "Guardar resultados de llamadas costosas para reutilizarlos",
+      "Comprimir datos en RAM",
+      "Aprender de memoria un algoritmo"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n13-09",
+    "nivel": 13,
+    "categoria": "carrera",
+    "texto": "¿Qué es un B-tree?",
+    "opciones": [
+      "Un árbol binario sin balancear",
+      "Un árbol balanceado con muchos hijos por nodo, usado en índices de bases de datos",
+      "Un grafo con ciclos",
+      "Un árbol con solo dos niveles"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n13-10",
+    "nivel": 13,
+    "categoria": "carrera",
+    "texto": "¿Qué garantiza el protocolo Two-Phase Commit (2PC)?",
+    "opciones": [
+      "Que los datos se cifren en dos fases",
+      "Que cada transacción se ejecute dos veces",
+      "Que haya dos réplicas de cada tabla",
+      "Que una transacción distribuida se confirme en todos los nodos o en ninguno"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n13-11",
+    "nivel": 13,
+    "categoria": "carrera",
+    "texto": "¿Qué algoritmo de consenso usa etcd, el almacén de configuración de Kubernetes?",
+    "opciones": [
+      "RSA",
+      "Paxos",
+      "Raft",
+      "Dijkstra"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n13-12",
+    "nivel": 13,
+    "categoria": "carrera",
+    "texto": "¿Qué dice el principio de inversión de dependencias (DIP)?",
+    "opciones": [
+      "Las clases hijas no deben heredar métodos",
+      "Cada clase debe tener un solo método",
+      "Las dependencias deben instalarse al revés",
+      "Los módulos de alto nivel deben depender de abstracciones, no de implementaciones concretas"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n13-13",
+    "nivel": 13,
+    "categoria": "carrera",
+    "texto": "¿Qué es event sourcing?",
+    "opciones": [
+      "Registrar solo errores del sistema",
+      "Buscar eventos en un calendario",
+      "Guardar el estado como una secuencia de eventos inmutables",
+      "Enviar notificaciones por correo"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n13-14",
+    "nivel": 13,
+    "categoria": "carrera",
+    "texto": "¿Qué describe la ley de Amdahl?",
+    "opciones": [
+      "El límite de mejora al paralelizar un programa según su parte secuencial",
+      "Que los transistores se duplican cada dos años",
+      "El consumo eléctrico de un procesador",
+      "La velocidad máxima de una red"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n13-15",
+    "nivel": 13,
+    "categoria": "carrera",
+    "texto": "¿Cuál es la complejidad de resolver el problema del viajante por fuerza bruta?",
+    "opciones": [
+      "O(n³)",
+      "O(n!)",
+      "O(n log n)",
+      "O(n²)"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n13-16",
+    "nivel": 13,
+    "categoria": "carrera",
+    "texto": "¿Qué es una vulnerabilidad zero-day?",
+    "opciones": [
+      "Una falla desconocida por el fabricante y sin parche disponible",
+      "Un virus que se borra solo",
+      "Una contraseña sin caducidad",
+      "Un error que se corrige el mismo día"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n13-17",
+    "nivel": 13,
+    "categoria": "logica",
+    "texto": "¿Qué número sigue en la serie: 2, 12, 30, 56, 90, ...?",
+    "opciones": [
+      "132",
+      "110",
+      "120",
+      "126"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n13-18",
+    "nivel": 13,
+    "categoria": "logica",
+    "texto": "¿Cuántos subconjuntos tiene un conjunto de 6 elementos?",
+    "opciones": [
+      "32",
+      "720",
+      "36",
+      "64"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n13-19",
+    "nivel": 13,
+    "categoria": "logica",
+    "texto": "En un grupo de 23 personas, ¿cuál es aproximadamente la probabilidad de que dos cumplan años el mismo día?",
+    "opciones": [
+      "6%",
+      "90%",
+      "50%",
+      "23%"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n13-20",
+    "nivel": 13,
+    "categoria": "logica",
+    "texto": "Tienes dos mechas que tardan 1 hora cada una en quemarse de forma irregular. ¿Cómo mides 45 minutos?",
+    "opciones": [
+      "Enciendes las dos por ambos extremos al mismo tiempo",
+      "Enciendes una por ambos extremos y la otra por uno; al acabarse la primera, enciendes el otro extremo de la segunda",
+      "Cortas una mecha en cuatro partes iguales",
+      "Enciendes ambas por un extremo y esperas a que se acabe una"
+    ],
     "correctaIndex": 1
   },
   {
@@ -120,8 +3371,260 @@
     "nivel": 13,
     "categoria": "carrera",
     "texto": "¿Qué patrón de diseño se utiliza para garantizar que una clase tenga una única instancia?",
-    "opciones": ["Factory", "Observer", "Singleton", "Strategy"],
+    "opciones": [
+      "Factory",
+      "Observer",
+      "Singleton",
+      "Strategy"
+    ],
     "correctaIndex": 2
+  },
+  {
+    "id": "n14-02",
+    "nivel": 14,
+    "categoria": "carrera",
+    "texto": "¿Qué es el análisis amortizado?",
+    "opciones": [
+      "El costo promedio por operación en el peor caso de una secuencia de operaciones",
+      "El costo en dinero de un algoritmo",
+      "La memoria usada por una sola operación",
+      "El tiempo de la operación más rápida"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n14-03",
+    "nivel": 14,
+    "categoria": "carrera",
+    "texto": "¿Cuál es el costo amortizado de agregar al final de un arreglo dinámico que duplica su capacidad?",
+    "opciones": [
+      "O(log n)",
+      "O(n)",
+      "O(n²)",
+      "O(1)"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n14-04",
+    "nivel": 14,
+    "categoria": "carrera",
+    "texto": "¿Qué permite resolver el teorema maestro?",
+    "opciones": [
+      "Ecuaciones de segundo grado",
+      "Sistemas de ecuaciones lineales",
+      "Problemas NP-completos",
+      "Recurrencias de la forma T(n) = aT(n/b) + f(n)"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n14-05",
+    "nivel": 14,
+    "categoria": "carrera",
+    "texto": "Según el teorema maestro, ¿cuál es la solución de T(n) = 2T(n/2) + n?",
+    "opciones": [
+      "Θ(n log n)",
+      "Θ(n)",
+      "Θ(n²)",
+      "Θ(log n)"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n14-06",
+    "nivel": 14,
+    "categoria": "carrera",
+    "texto": "¿Qué es un filtro de Bloom?",
+    "opciones": [
+      "Una estructura probabilística que admite falsos positivos pero no falsos negativos",
+      "Un firewall de aplicaciones",
+      "Un árbol perfectamente balanceado",
+      "Un filtro de imágenes"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n14-07",
+    "nivel": 14,
+    "categoria": "carrera",
+    "texto": "¿Qué ilustra el problema de los filósofos comensales?",
+    "opciones": [
+      "El diseño de bases de datos relacionales",
+      "Problemas de sincronización y asignación de recursos entre procesos",
+      "La complejidad de los algoritmos de búsqueda",
+      "La seguridad en redes inalámbricas"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n14-08",
+    "nivel": 14,
+    "categoria": "carrera",
+    "texto": "¿Qué establece el principio de sustitución de Liskov?",
+    "opciones": [
+      "Las subclases no pueden agregar métodos",
+      "Se debe evitar la herencia siempre",
+      "Toda clase debe tener un constructor vacío",
+      "Los objetos de una subclase deben poder reemplazar a los de su superclase sin romper el programa"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n14-09",
+    "nivel": 14,
+    "categoria": "carrera",
+    "texto": "¿Para qué sirve el protocolo Diffie-Hellman?",
+    "opciones": [
+      "Para enrutar paquetes",
+      "Para acordar una clave secreta compartida sobre un canal inseguro",
+      "Para comprimir archivos",
+      "Para firmar documentos PDF"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n14-10",
+    "nivel": 14,
+    "categoria": "carrera",
+    "texto": "¿En qué problema matemático se basa la seguridad de RSA?",
+    "opciones": [
+      "El ordenamiento de números",
+      "La conjetura de los primos gemelos",
+      "El logaritmo discreto en curvas elípticas",
+      "La dificultad de factorizar enteros grandes"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n14-11",
+    "nivel": 14,
+    "categoria": "carrera",
+    "texto": "¿Qué garantiza el Perfect Forward Secrecy?",
+    "opciones": [
+      "Que el servidor nunca se caiga",
+      "Que los mensajes lleguen en orden",
+      "Que comprometer la clave de largo plazo no permita descifrar sesiones pasadas",
+      "Que las contraseñas nunca caduquen"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n14-12",
+    "nivel": 14,
+    "categoria": "carrera",
+    "texto": "¿Qué es el cuello de botella de von Neumann?",
+    "opciones": [
+      "La limitación del canal compartido entre CPU y memoria para datos e instrucciones",
+      "El tamaño máximo de un archivo",
+      "La cantidad máxima de núcleos",
+      "El límite de velocidad del disco duro"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n14-13",
+    "nivel": 14,
+    "categoria": "carrera",
+    "texto": "¿Qué es el pipelining en un procesador?",
+    "opciones": [
+      "Enfriar el procesador con líquido",
+      "Ejecutar una instrucción a la vez",
+      "Superponer las etapas de ejecución de varias instrucciones",
+      "Conectar varios procesadores con tuberías"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n14-14",
+    "nivel": 14,
+    "categoria": "carrera",
+    "texto": "¿Qué es un riesgo (hazard) de datos en un pipeline?",
+    "opciones": [
+      "Un dato corrupto en el disco",
+      "Un virus en la memoria",
+      "Un apagón del sistema",
+      "Una instrucción depende del resultado de otra que aún no termina"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n14-15",
+    "nivel": 14,
+    "categoria": "carrera",
+    "texto": "¿Qué significa que una operación de una API sea idempotente?",
+    "opciones": [
+      "Que siempre responde más rápido",
+      "Repetir la misma petición produce el mismo efecto que hacerla una vez",
+      "Que solo puede ejecutarse una vez",
+      "Que no requiere autenticación"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n14-16",
+    "nivel": 14,
+    "categoria": "carrera",
+    "texto": "¿Qué es el patrón Saga en microservicios?",
+    "opciones": [
+      "Un tipo de base de datos en memoria",
+      "Una forma de documentar historias de usuario",
+      "Una secuencia de transacciones locales con acciones compensatorias para mantener la consistencia",
+      "Un balanceador de carga"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n14-17",
+    "nivel": 14,
+    "categoria": "logica",
+    "texto": "¿Qué sigue en la serie: 1, 11, 21, 1211, 111221, ...?",
+    "opciones": [
+      "112221",
+      "312211",
+      "311221",
+      "1112221"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n14-18",
+    "nivel": 14,
+    "categoria": "logica",
+    "texto": "En una cuadrícula de 3×3 cuadros, ¿cuántos caminos más cortos hay de una esquina a la opuesta moviéndose solo a la derecha y hacia arriba?",
+    "opciones": [
+      "9",
+      "27",
+      "20",
+      "6"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n14-19",
+    "nivel": 14,
+    "categoria": "logica",
+    "texto": "En un torneo de eliminación directa con 64 equipos, ¿cuántos partidos se juegan hasta tener campeón?",
+    "opciones": [
+      "6",
+      "32",
+      "63",
+      "64"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n14-20",
+    "nivel": 14,
+    "categoria": "logica",
+    "texto": "Si un número es divisible entre 3 y entre 4, ¿entre cuál de estos es necesariamente divisible?",
+    "opciones": [
+      "12",
+      "7",
+      "8",
+      "24"
+    ],
+    "correctaIndex": 0
   },
   {
     "id": "p14",
@@ -137,11 +3640,263 @@
     "correctaIndex": 1
   },
   {
+    "id": "n15-02",
+    "nivel": 15,
+    "categoria": "carrera",
+    "texto": "¿Qué afirma la tesis de Church-Turing?",
+    "opciones": [
+      "Toda máquina de Turing puede resolver cualquier problema",
+      "Ningún problema es indecidible",
+      "Toda función efectivamente calculable puede calcularse con una máquina de Turing",
+      "Las computadoras cuánticas superan a las de Turing en todo"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n15-03",
+    "nivel": 15,
+    "categoria": "carrera",
+    "texto": "¿Qué plantea el problema P vs NP?",
+    "opciones": [
+      "Si todos los programas terminan",
+      "Si la memoria RAM es más rápida que la caché",
+      "Si todo problema cuya solución se verifica rápido también se puede resolver rápido",
+      "Si los números primos son infinitos"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n15-04",
+    "nivel": 15,
+    "categoria": "carrera",
+    "texto": "¿Para qué se usa el lema del bombeo (pumping lemma)?",
+    "opciones": [
+      "Para calcular la complejidad de un algoritmo",
+      "Para demostrar que un lenguaje no es regular (o no es libre de contexto)",
+      "Para optimizar compiladores",
+      "Para comprimir cadenas"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n15-05",
+    "nivel": 15,
+    "categoria": "carrera",
+    "texto": "¿Qué algoritmo cuántico factoriza enteros en tiempo polinomial?",
+    "opciones": [
+      "Algoritmo de Karatsuba",
+      "Algoritmo de Dijkstra",
+      "Algoritmo de Shor",
+      "Algoritmo de Grover"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n15-06",
+    "nivel": 15,
+    "categoria": "carrera",
+    "texto": "¿Qué plantea el problema de los generales bizantinos?",
+    "opciones": [
+      "Cómo cifrar mensajes militares",
+      "Cómo ordenar mensajes por fecha",
+      "Cómo repartir tareas entre procesadores",
+      "Lograr consenso cuando algunos nodos pueden fallar o actuar maliciosamente"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n15-07",
+    "nivel": 15,
+    "categoria": "carrera",
+    "texto": "Para tolerar f nodos bizantinos, ¿cuántos nodos n se necesitan como mínimo?",
+    "opciones": [
+      "n ≥ 2f + 1",
+      "n ≥ 4f",
+      "n ≥ f + 1",
+      "n ≥ 3f + 1"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n15-08",
+    "nivel": 15,
+    "categoria": "carrera",
+    "texto": "¿Qué establece el teorema de Rice?",
+    "opciones": [
+      "Todo programa puede optimizarse",
+      "Todo lenguaje regular es finito",
+      "Todo algoritmo recursivo puede ser iterativo",
+      "Toda propiedad semántica no trivial de los programas es indecidible"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n15-09",
+    "nivel": 15,
+    "categoria": "carrera",
+    "texto": "¿Cuál es la complejidad del algoritmo de Karatsuba para multiplicar enteros?",
+    "opciones": [
+      "O(n^1.585)",
+      "O(n log n)",
+      "O(n²)",
+      "O(n³)"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n15-10",
+    "nivel": 15,
+    "categoria": "carrera",
+    "texto": "¿Qué es un algoritmo de aproximación?",
+    "opciones": [
+      "Uno que solo funciona con datos pequeños",
+      "Uno que encuentra en tiempo polinomial una solución cercana a la óptima con garantía de calidad",
+      "Uno que adivina la respuesta al azar",
+      "Uno que redondea números decimales"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n15-11",
+    "nivel": 15,
+    "categoria": "carrera",
+    "texto": "¿Qué es la linealizabilidad?",
+    "opciones": [
+      "Un modelo de consistencia donde cada operación parece ocurrir instantáneamente entre su inicio y su fin",
+      "Convertir un grafo en una lista",
+      "Ejecutar procesos uno tras otro sin concurrencia",
+      "Ordenar datos de forma lineal"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n15-12",
+    "nivel": 15,
+    "categoria": "carrera",
+    "texto": "En programación concurrente sin bloqueos, ¿qué es el problema ABA?",
+    "opciones": [
+      "Un conflicto de nombres de clases",
+      "Un valor cambia de A a B y vuelve a A, y una operación CAS cree que no cambió",
+      "Un deadlock entre tres hilos",
+      "Un error de compilación con tres variables"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n15-13",
+    "nivel": 15,
+    "categoria": "carrera",
+    "texto": "¿Qué es el false sharing?",
+    "opciones": [
+      "Hilos que modifican variables distintas en la misma línea de caché, degradando el rendimiento",
+      "Una fuga de memoria",
+      "Un error de sincronización de archivos",
+      "Compartir contraseñas falsas"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n15-14",
+    "nivel": 15,
+    "categoria": "carrera",
+    "texto": "¿Qué permiten los relojes de Lamport?",
+    "opciones": [
+      "Un orden consistente de eventos causalmente relacionados en un sistema distribuido",
+      "Sincronizar la hora física exacta",
+      "Medir el consumo de energía",
+      "Cifrar mensajes con la hora"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n15-15",
+    "nivel": 15,
+    "categoria": "carrera",
+    "texto": "¿Qué es un ataque de canal lateral (side-channel)?",
+    "opciones": [
+      "Enviar correos de phishing",
+      "Adivinar contraseñas comunes",
+      "Obtener secretos a partir de efectos físicos como el tiempo, el consumo o la radiación",
+      "Interceptar un cable de red"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n15-16",
+    "nivel": 15,
+    "categoria": "carrera",
+    "texto": "¿Cuál es la cota inferior de comparaciones para ordenar n elementos con algoritmos basados en comparaciones?",
+    "opciones": [
+      "Ω(n²)",
+      "Ω(n log n)",
+      "Ω(n)",
+      "Ω(log n)"
+    ],
+    "correctaIndex": 1
+  },
+  {
+    "id": "n15-17",
+    "nivel": 15,
+    "categoria": "logica",
+    "texto": "Tienes 12 monedas y una es falsa (pesa más o menos, no sabes cuál). ¿Cuántas pesadas mínimas necesitas en una balanza para encontrarla y saber si pesa más o menos?",
+    "opciones": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "correctaIndex": 0
+  },
+  {
+    "id": "n15-18",
+    "nivel": 15,
+    "categoria": "logica",
+    "texto": "Máximo de regiones al unir n puntos de un círculo: 1, 2, 4, 8, 16, ... ¿Cuántas regiones hay con 6 puntos?",
+    "opciones": [
+      "32",
+      "30",
+      "31",
+      "36"
+    ],
+    "correctaIndex": 2
+  },
+  {
+    "id": "n15-19",
+    "nivel": 15,
+    "categoria": "logica",
+    "texto": "Problema de Monty Hall: eliges una puerta y el presentador abre otra con una cabra. ¿Qué te conviene?",
+    "opciones": [
+      "Da igual: 1/2 en ambos casos",
+      "Quedarte: 2/3 de probabilidad de ganar",
+      "Cambiar de puerta: 1/3 de probabilidad de ganar",
+      "Cambiar de puerta: 2/3 de probabilidad de ganar"
+    ],
+    "correctaIndex": 3
+  },
+  {
+    "id": "n15-20",
+    "nivel": 15,
+    "categoria": "logica",
+    "texto": "¿Cuántas veces se superponen las manecillas de la hora y los minutos en un día de 24 horas?",
+    "opciones": [
+      "24",
+      "12",
+      "23",
+      "22"
+    ],
+    "correctaIndex": 3
+  },
+  {
     "id": "p15",
     "nivel": 15,
     "categoria": "logica",
     "texto": "Un cajón tiene 10 calcetines negros y 10 blancos. ¿Cuántos calcetines debes sacar, a ciegas, para asegurar un par del mismo color?",
-    "opciones": ["2", "3", "10", "11"],
+    "opciones": [
+      "2",
+      "3",
+      "10",
+      "11"
+    ],
     "correctaIndex": 1
   }
 ]

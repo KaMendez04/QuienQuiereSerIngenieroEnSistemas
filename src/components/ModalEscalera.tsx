@@ -23,7 +23,7 @@ export const ModalEscalera: React.FC<ModalEscaleraProps> = ({
           initial={{ scale: 0.9, opacity: 0, y: 20 }}
           animate={{ scale: 1, opacity: 1, y: 0 }}
           exit={{ scale: 0.9, opacity: 0, y: 20 }}
-          className="relative w-full max-w-lg p-6 rounded-3xl border-2 border-cyan-400 bg-gradient-to-b from-[#0e1644] via-[#070b28] to-[#020412] shadow-[0_0_50px_rgba(0,180,255,0.7)] text-white"
+          className="relative w-full max-w-lg max-h-[90vh] overflow-y-auto p-6 rounded-3xl border-2 border-cyan-400 bg-gradient-to-b from-[#0e1644] via-[#070b28] to-[#020412] shadow-[0_0_50px_rgba(0,180,255,0.7)] text-white"
         >
           {/* Botón Cerrar / Volver a la Pregunta */}
           <button
